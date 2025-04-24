@@ -1,0 +1,17 @@
+# IDE
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Docker i image
+*.tar
+*.log
+
+# Splunk config
+splunk_config/server.conf
+splunk_config/web.conf
+splunk_config/README

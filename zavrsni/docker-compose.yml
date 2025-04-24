@@ -1,0 +1,50 @@
+version: "3.8"
+
+services:
+
+  splunk-server:
+    image: splunk/splunk:9.0
+    container_name: splunk-server
+    environment:
+      - SPLUNK_START_ARGS=--accept-license
+      - SPLUNK_PASSWORD=Mojasifra123!
+    ports:
+      - "8000:8000"
+      - "9997:9997"
+      - "8089:8089"
+    volumes:
+      - splunk_data:/opt/splunk/var
+    tty: true
+    stdin_open: true
+
+  splunk-uf:
+    image: splunk/universalforwarder:9.0.5
+    container_name: splunk-uf
+    user: root
+    environment:
+      - SPLUNK_START_ARGS=--accept-license
+      - SPLUNK_USER=splunk
+      - SPLUNK_PASSWORD=Mojasifra123!
+      - SPLUNK_HOME=/opt/splunkforwarder
+      - SPLUNK_SERVER=splunk-server:9997
+    volumes:
+      - logovi_za_prikaz:/Logovi_za_prikaz
+      - ./splunk_config:/opt/splunkforwarder/etc/system/local
+    tty: true
+    stdin_open: true
+
+  python-app:
+    build: .
+    container_name: python-app
+    volumes:
+      - logovi_za_prikaz:/Logovi_za_prikaz
+    depends_on:
+      - splunk-uf
+    stdin_open: true
+    tty: true
+    environment:
+      - PYTHONUNBUFFERED=1
+
+volumes:
+  logovi_za_prikaz:
+  splunk_data:
