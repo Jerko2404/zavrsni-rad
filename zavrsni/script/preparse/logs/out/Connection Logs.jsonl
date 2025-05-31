@@ -1,0 +1,27 @@
+{"line": "[{{NOW+0}}] SSH Connection Accepted: {{USER_1}} IP={{HOST_1}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.2p1, Device={{SERVER_1}}"}
+{"line": "[{{NOW+206}}] SSH Connection Accepted: {{USER_2}} IP={{HOST_2}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_7.4, Device={{SERVER_2}}"}
+{"line": "[{{NOW+408}}] SSH Connection Failed: {{USER_1}} IP={{HOST_3}}, port {{PORT}}, Reason=Invalid Password, Device={{SERVER_1}}"}
+{"line": "[{{NOW+607}}] SSH Connection Accepted: {{USER_3}} IP={{HOST_4}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.4, Device={{SERVER_3}}"}
+{"line": "[{{NOW+832}}] SSH Connection Accepted: {{USER_1}} IP={{HOST_5}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.2p1, Device={{SERVER_1}}"}
+{"line": "[{{NOW+1224}}] SSH Connection Failed: {{USER_4}} IP={{HOST_6}}, port {{PORT}}, Reason=Connection Timeout, Device={{SERVER_4}}"}
+{"line": "[{{NOW+1479}}] SSH Connection Accepted: {{USER_2}} IP={{HOST_2}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_7.4, Device={{SERVER_2}}"}
+{"line": "[{{NOW+1796}}] SSH Connection Accepted: {{USER_5}} IP={{HOST_7}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.3p1, Device={{SERVER_5}}"}
+{"line": "[{{NOW+2060}}] SSH Connection Failed: {{USER_1}} IP={{HOST_8}}, port {{PORT}}, Reason=Invalid Username, Device={{SERVER_6}}"}
+{"line": "[{{NOW+2255}}] SSH Connection Accepted: {{USER_1}} IP={{HOST_9}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.2p1, Device={{SERVER_1}}"}
+{"line": "[{{NOW+2807}}] SSH Connection Failed: {{USER_6}} IP={{HOST_10}}, port {{PORT}}, Reason=Invalid Password, Device={{SERVER_2}}"}
+{"line": "[{{NOW+3190}}] SSH Connection Accepted: {{USER_7}} IP={{HOST_11}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.5p1, Device={{SERVER_6}}"}
+{"line": "[{{NOW+3598}}] SSH Connection Failed: {{USER_8}} IP={{HOST_12}}, port {{PORT}}, Reason=Invalid Username, Device={{SERVER_3}}"}
+{"line": "[{{NOW+3922}}] SSH Connection Failed: {{USER_9}} IP={{HOST_13}}, port {{PORT}}, Reason=Too Many Authentication Failures, Device={{SERVER_5}}"}
+{"line": "[{{NOW+4175}}] SSH Connection Accepted: {{USER_10}} IP={{HOST_14}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.6p1, Device={{SERVER_4}}"}
+{"line": "[{{NOW+4489}}] SSH Connection Accepted: {{USER_11}} IP={{HOST_15}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.1p1, Device={{SERVER_7}}"}
+{"line": "[{{NOW+5004}}] SSH Connection Failed: {{USER_12}} IP={{HOST_16}}, port {{PORT}}, Reason=Invalid Username, Device={{SERVER_8}}"}
+{"line": "[{{NOW+5232}}] SSH Connection Accepted: {{USER_2}} IP={{HOST_2}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_7.4, Device={{SERVER_2}}"}
+{"line": "[{{NOW+5696}}] SSH Connection Accepted: {{USER_13}} IP={{HOST_17}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.7p1, Device={{SERVER_9}}"}
+{"line": "[{{NOW+5979}}] SSH Connection Failed: {{USER_5}} IP={{HOST_18}}, port {{PORT}}, Reason=Invalid Password, Device={{SERVER_10}}"}
+{"line": "[{{NOW+6455}}] SSH Connection Accepted: {{USER_1}} IP={{HOST_3}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.2p1, Device={{SERVER_1}}"}
+{"line": "[{{NOW+6921}}] SSH Connection Accepted: {{USER_14}} IP={{HOST_19}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.3p1, Device={{SERVER_11}}"}
+{"line": "[{{NOW+7216}}] SSH Connection Failed: {{USER_3}} IP={{HOST_20}}, port {{PORT}}, Reason=Invalid Password, Device={{SERVER_12}}"}
+{"line": "[{{NOW+7607}}] SSH Connection Accepted: {{USER_9}} IP={{HOST_21}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.4p1, Device={{SERVER_13}}"}
+{"line": "[{{NOW+8082}}] SSH Connection Failed: {{USER_8}} IP={{HOST_22}}, port {{PORT}}, Reason=Invalid Username, Device={{SERVER_14}}"}
+{"line": "[{{NOW+8428}}] SSH Connection Accepted: {{USER_15}} IP={{HOST_23}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_8.9p1, Device={{SERVER_15}}"}
+{"line": "[{{NOW+8707}}] SSH Connection Accepted: {{USER_16}} IP={{HOST_24}}, port {{PORT}}, Protocol=SSH-2.0-OpenSSH_7.9p1, Device={{SERVER_16}}"}

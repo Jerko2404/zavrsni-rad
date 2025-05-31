@@ -6,9 +6,9 @@ import json
 # Global variables to store configuration
 config = {
     "logs_file": "logs_file.txt",
-    "splunk_host": "127.0.0.1",
-    "tcp_port": 5140,
-    "udp_port": 514,
+    "splunk_host": "splunk-server",
+    "tcp_port": 15140,
+    "udp_port": 1514,
     "splunkUF": False,
     "protocol": "tcp",
     "running": False,
@@ -23,7 +23,7 @@ config = {
     "DNS_queery": False,
     "malicious_ip": "123.123.123.123",
     "malicious_user": "user01",
-    "noise": False
+    "noise": False,
 }
 
 LogsDict = {
@@ -36,7 +36,7 @@ LogsDict = {
     "WebserverLogs": "Drugi_napad_logovi/webserverlogs.txt",
     "PrivilageEscalation": "Drugi_napad_logovi/privilageescalation logs.txt",
     "DNS_queery": "Drugi_napad_logovi/DNS queery logs.txt",
-    "noise_logs": "Logovi_za_prikaz/NoiseLogs.txt"
+    "noise_logs": "Logovi_za_prikaz/NoiseLogs.txt",
 }
 
 # Lock for thread-safe configuration updates
@@ -47,7 +47,9 @@ def changeLine(line):
     with config_lock:
         malicious_ip = config["malicious_ip"]
         malicious_user = config["malicious_user"]
-    return line.replace("<MALICIOUS_IP>", malicious_ip).replace("<MALICIOUS_USER>", malicious_user)
+    return line.replace("<MALICIOUS_IP>", malicious_ip).replace(
+        "<MALICIOUS_USER>", malicious_user
+    )
 
 
 def send_noise_logs():
@@ -59,7 +61,7 @@ def send_noise_logs():
 
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        with open(noise_log_file, 'r') as f:
+        with open(noise_log_file, "r") as f:
             for line in f:
                 if not config["running"]:
                     break
@@ -79,11 +81,14 @@ def send_logs_to_splunk():
         splunkUF = config["splunkUF"]
 
     try:
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM if protocol == 'tcp' else socket.SOCK_DGRAM)
-        port = tcp_port if protocol == 'tcp' else udp_port
-        if protocol == 'tcp' and not splunkUF:
+        sock = socket.socket(
+            socket.AF_INET,
+            socket.SOCK_STREAM if protocol == "tcp" else socket.SOCK_DGRAM,
+        )
+        port = tcp_port if protocol == "tcp" else udp_port
+        if protocol == "tcp" and not splunkUF:
             sock.connect((splunk_host, port))
-        elif protocol == 'udp' and not splunkUF:
+        elif protocol == "udp" and not splunkUF:
             sock.connect((splunk_host, port))
         elif splunkUF:
             with open("/Logovi_za_prikaz/splunkUF.txt", "w") as file:
@@ -94,7 +99,7 @@ def send_logs_to_splunk():
                         if config.get(key, False):
                             file_path = LogsDict[key]
 
-                    with open(file_path, 'r') as f:
+                    with open(file_path, "r") as f:
                         for line in f:
                             newline = changeLine(line)
                             file.write(newline)
@@ -107,14 +112,14 @@ def send_logs_to_splunk():
                     if config.get(key, False):
                         file_path = LogsDict[key]
 
-                with open(file_path, 'r') as f:
+                with open(file_path, "r") as f:
                     for line in f:
                         newline = changeLine(line)
                         if not config["running"]:
                             break
-                        if protocol == 'tcp':
+                        if protocol == "tcp":
                             sock.sendall(newline.encode())
-                        elif protocol == 'udp':
+                        elif protocol == "udp":
                             sock.sendto(newline.encode(), (splunk_host, port))
                         time.sleep(0.1)
         sock.close()
@@ -160,14 +165,16 @@ def process_command(command):
                 print("Log sending is not running.")
 
     elif cmd == "HELP":
-        print("""
+        print(
+            """
 Available commands:
 - SET [{"variable": "<variable_name>", "value": "<value>"}, ...]
 - START
 - STOP
 - EXIT
 - HELP
-        """)
+        """
+        )
 
     elif cmd == "EXIT":
         exit()
@@ -177,8 +184,10 @@ Available commands:
 
 
 if __name__ == "__main__":
-    print('Use {\"command\": \"HELP\"} to see available commands.')
-    print("Awaiting commands. Use SET, START, STOP, HELP, or EXIT to control the program.")
+    print('Use {"command": "HELP"} to see available commands.')
+    print(
+        "Awaiting commands. Use SET, START, STOP, HELP, or EXIT to control the program."
+    )
 
     while True:
         try:

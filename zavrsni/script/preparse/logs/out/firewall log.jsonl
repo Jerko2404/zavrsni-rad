@@ -1,0 +1,14 @@
+{"line": "{{NOW+0}}Z Firewall: Connection attempt detected"}
+{"line": "{{NOW+1}}Z Firewall: Blocked connection to malicious IP {{HOST_1}} flagged in Threat Intelligence Database"}
+{"line": "{{NOW+5}}Z Firewall: Connection attempt detected"}
+{"line": "{{NOW+7}}Z Firewall: Allowed connection from {{HOST_2}} to {{HOST_3}} (internal network)"}
+{"line": "{{NOW+15}}Z Firewall: Connection attempt detected"}
+{"line": "{{NOW+16}}Z Firewall: Allowed connection from {{HOST_4}} to {{HOST_5}} (HTTPS traffic)"}
+{"line": "{{NOW+30}}Z Firewall: Connection attempt detected"}
+{"line": "{{NOW+32}}Z Firewall: Allowed connection from {{HOST_6}} to {{HOST_7}} (NTP traffic)"}
+{"line": "{{NOW+40}}Z Firewall: Connection attempt detected"}
+{"line": "{{NOW+42}}Z Firewall: Allowed connection from {{HOST_8}} to {{HOST_9}} (HTTP traffic)"}
+{"line": "{{NOW+55}}Z Firewall: Connection attempt detected"}
+{"line": "{{NOW+58}}Z Firewall: Allowed connection from {{HOST_10}} to {{HOST_5}} (SNMP traffic)"}
+{"line": "{{NOW+60}}Z Firewall: Connection attempt detected"}
+{"line": "{{NOW+62}}Z Firewall: Blocked connection to suspicious IP {{HOST_11}}"}

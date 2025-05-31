@@ -1,0 +1,18 @@
+Jan 15 10:18:34 authserver sshd[1238] Accepted password for employee from 45.67.89.101 port 54321 ssh2
+Jan 15 10:18:34 authserver sshd[1238] pam_unix(sshdsession) session opened for user employee by (uid=0)
+Jan 15 10:18:40 authserver sshd[1240] Accepted password for employee from 192.168.1.10 port 52222 ssh2
+Jan 15 10:18:40 authserver sshd[1240] pam_unix(sshdsession) session opened for user employee by (uid=0)
+Jan 15 10:18:45 authserver sshd[1242] Accepted password for employee from 192.168.1.15 port 56789 ssh2
+Jan 15 10:18:45 authserver sshd[1242] pam_unix(sshdsession) session opened for user employee by (uid=0)
+Jan 15 10:18:50 authserver sshd[1245] Accepted password for admin from 10.0.0.5 port 2222 ssh2
+Jan 15 10:18:50 authserver sshd[1245] pam_unix(sshdsession) session opened for user admin by (uid=0)
+Jan 15 10:18:55 authserver sshd[1247] Accepted password for employee from 192.168.1.20 port 23456 ssh2
+Jan 15 10:18:55 authserver sshd[1247] pam_unix(sshdsession) session opened for user employee by (uid=0)
+Jan 15 10:19:00 authserver sshd[1250] Accepted password for employee from 45.67.89.102 port 34567 ssh2
+Jan 15 10:19:00 authserver sshd[1250] pam_unix(sshdsession) session opened for user employee by (uid=0)
+Jan 15 10:19:05 authserver sshd[1252] Accepted password for employee from 192.168.1.30 port 45678 ssh2
+Jan 15 10:19:05 authserver sshd[1252] pam_unix(sshdsession) session opened for user employee by (uid=0)
+Jan 15 10:19:10 authserver sshd[1254] Accepted password for employee from 192.168.1.35 port 56789 ssh2
+Jan 15 10:19:10 authserver sshd[1254] pam_unix(sshdsession) session opened for user employee by (uid=0)
+Jan 15 10:19:15 authserver sshd[1256] Accepted password for admin from 192.168.1.5 port 12345 ssh2
+Jan 15 10:19:15 authserver sshd[1256] pam_unix(sshdsession) session opened for user admin by (uid=0)

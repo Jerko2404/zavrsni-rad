@@ -1,1 +1,5 @@
 .idea
+# ignore raw & processed logs
+Logovi_za_prikaz/
+Drugi_napad_logovi/
+script/preparse/logs/
