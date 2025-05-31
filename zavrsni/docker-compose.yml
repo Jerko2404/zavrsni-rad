@@ -1,51 +1,48 @@
 services:
-  splunk-server:
+  splunk-enterprise:
     image: splunk/splunk:latest
-    container_name: splunk-server
+    container_name: splunk-enterprise
     environment:
       - SPLUNK_START_ARGS=--accept-license
       - SPLUNK_PASSWORD=Mojasifra123!
     ports:
-      - "8000:8000" # Web UI
-      - "8089:8089" # REST / mgmt port
-      - "9997:9997" # Indexer-receiver (UF → IDX)
-      - "15140:15140" # **TCP raw events**
-      - "1514:1514/udp" # **UDP raw events / syslog**
+      - "8000:8000"
+      - "8089:8089"
+      - "9997:9997"
+      - "15140:15140"
+      - "1514:1514/udp"
     volumes:
       - splunk_data:/opt/splunk/var
-    tty: true
-    stdin_open: true
 
   splunk-uf:
-    image: splunk/universalforwarder:9.4.2
+    image: splunk/universalforwarder:latest
     container_name: splunk-uf
-    user: root
     environment:
       - SPLUNK_START_ARGS=--accept-license
-      - SPLUNK_USER=splunk
-      - SPLUNK_PASSWORD=Mojasifra123!
       - SPLUNK_HOME=/opt/splunkforwarder
-      - SPLUNK_SERVER=splunk-server:9997 # UF phones home to indexer
+      - SPLUNK_PASSWORD=Mojasifra123!
+      - SPLUNK_SERVER=splunk-enterprise:9997
     volumes:
-      - logovi_za_prikaz:/Logovi_za_prikaz
+      - ./Logovi_za_prikaz:/Logovi_za_prikaz
+      - ./Drugi_napad_logovi:/Drugi_napad_logovi
       - ./splunk_config:/opt/splunkforwarder/etc/system/local
-    tty: true
-    stdin_open: true
     depends_on:
-      - splunk-server
+      - splunk-enterprise
 
-  python-app:
-    build: .
-    container_name: python-app
+  parser-app:
+    image: python:3.13.3-slim-bookworm
+    container_name: parser-app
+    volumes:
+      - ./SOCPRO3.py:/SOCPRO3.py
+      - ./Logovi_za_prikaz:/Logovi_za_prikaz
+      - ./Drugi_napad_logovi:/Drugi_napad_logovi
+    entrypoint: [ "python", "/SOCPRO3.py" ]
+    stdin_open: true
+    tty: true
     environment:
       - PYTHONUNBUFFERED=1
-    volumes:
-      - logovi_za_prikaz:/Logovi_za_prikaz
-    stdin_open: true
-    tty: true
     depends_on:
       - splunk-uf
 
 volumes:
-  logovi_za_prikaz:
   splunk_data:

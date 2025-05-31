@@ -6,7 +6,7 @@ import json
 # Global variables to store configuration
 config = {
     "logs_file": "logs_file.txt",
-    "splunk_host": "splunk-server",
+    "splunk_host": "splunk-enterprise",
     "tcp_port": 15140,
     "udp_port": 1514,
     "splunkUF": False,

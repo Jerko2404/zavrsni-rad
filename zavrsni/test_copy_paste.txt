@@ -11,4 +11,4 @@ EXIT: {"command":"EXIT"}
 {"command":"SET","params":[{"variable":"splunkUF","value":false},{"variable":"protocol","value":"udp"},{"variable":"brute_force_connection","value":true},{"variable":"connection","value":true},{"variable":"malicious_ip","value":"10.10.10.10"},{"variable":"splunk_host","value":"127.0.0.1"}]}
 
 3. TCP direktno (bez UF)
-{"command":"SET","params":[{"variable":"splunkUF","value":false},{"variable":"protocol","value":"tcp"},{"variable":"brute_force_connection","value":true},{"variable":"EmailLogs","value":true},{"variable":"splunk_host","value":"127.0.0.1"}]}
+{"command":"SET","params":[{"variable":"splunkUF","value":false},{"variable":"protocol","value":"tcp"},{"variable":"brute_force_connection","value":true},{"variable":"EmailLogs","value":true}]}
