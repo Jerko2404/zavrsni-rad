@@ -13,6 +13,7 @@ services:
       - "1514:1514/udp"
     volumes:
       - splunk_data:/opt/splunk/var
+      - ./splunk_enterprise_config:/opt/splunk/etc/system/local
 
   splunk-uf:
     image: splunk/universalforwarder:latest

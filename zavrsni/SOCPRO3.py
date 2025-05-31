@@ -20,7 +20,7 @@ config = {
     "FireWall_Logs": False,
     "WebserverLogs": False,
     "PrivilageEscalation": False,
-    "DNS_queery": False,
+    "DNS_query": False,
     "malicious_ip": "123.123.123.123",
     "malicious_user": "user01",
     "noise": False,
@@ -35,7 +35,7 @@ LogsDict = {
     "FireWall_Logs": "Drugi_napad_logovi/firewall log.txt",
     "WebserverLogs": "Drugi_napad_logovi/webserverlogs.txt",
     "PrivilageEscalation": "Drugi_napad_logovi/privilageescalation logs.txt",
-    "DNS_queery": "Drugi_napad_logovi/DNS queery logs.txt",
+    "DNS_query": "Drugi_napad_logovi/DNS query logs.txt",
     "noise_logs": "Logovi_za_prikaz/NoiseLogs.txt",
 }
 

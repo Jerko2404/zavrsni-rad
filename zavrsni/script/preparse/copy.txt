@@ -1,0 +1,49 @@
+Connection logs
+{"command":"SET","params":[{"variable":"connection","value":true},{"variable":"protocol","value":"tcp"}]}
+
+Event log
+{"command":"SET","params":[{"variable":"createAndexecuteMalFile","value":true},{"variable":"protocol","value":"tcp"}]}
+
+Login logs
+{"command":"SET","params":[{"variable":"brute_force_connection","value":true},{"variable":"protocol","value":"tcp"}]}
+
+Noise logs
+{"command":"SET","params":[{"variable":"noise","value":true},{"variable":"protocol","value":"udp"}]}
+
+Security alert
+{"command":"SET","params":[{"variable":"WinDefenderLogs","value":true},{"variable":"protocol","value":"tcp"}]}
+
+DNS query
+{"command":"SET","params":[{"variable":"DNS_query","value":true},{"variable":"protocol","value":"tcp"}]}
+
+Email logs
+{"command":"SET","params":[{"variable":"EmailLogs","value":true},{"variable":"protocol","value":"tcp"}]}
+
+Firewall logs
+{"command":"SET","params":[{"variable":"FireWall_Logs","value":true},{"variable":"protocol","value":"tcp"}]}
+
+Privilage esc logs
+{"command":"SET","params":[{"variable":"PrivilageEscalation","value":true},{"variable":"protocol","value":"tcp"}]}
+
+Web server
+{"command":"SET","params":[{"variable":"WebserverLogs","value":true},{"variable":"protocol","value":"tcp"}]}
+
+Reset line
+{"command":"SET","params":[{"variable":"brute_force_connection","value":false},{"variable":"createAndexecuteMalFile","value":false},{"variable":"connection","value":false},{"variable":"WinDefenderLogs","value":false},{"variable":"EmailLogs","value":false},{"variable":"FireWall_Logs","value":false},{"variable":"WebserverLogs","value":false},{"variable":"PrivilageEscalation","value":false},{"variable":"DNS_queery","value":false},{"variable":"noise","value":false}]}
+
+START
+{"command": "START"}
+STOP
+{"command": "STOP"}
+
+################
+LoginLogs.txt (SSH brute-force)	{"command":"SET","params":[{"variable":"brute_force_connection","value":true},{"variable":"connection","value":false},{"variable":"createAndexecuteMalFile","value":false},{"variable":"WinDefenderLogs","value":false},{"variable":"EmailLogs","value":false},{"variable":"FireWall_Logs","value":false},{"variable":"WebserverLogs","value":false},{"variable":"PrivilageEscalation","value":false},{"variable":"DNS_queery","value":false},{"variable":"noise","value":false},{"variable":"splunkUF","value":false},{"variable":"protocol","value":"tcp"}]}
+EventLog kreiranja… .txt (create & execute malicious file)	{"command":"SET","params":[{"variable":"createAndexecuteMalFile","value":true},{"variable":"brute_force_connection","value":false},{"variable":"connection","value":false},{"variable":"WinDefenderLogs","value":false},{"variable":"EmailLogs","value":false},{"variable":"FireWall_Logs","value":false},{"variable":"WebserverLogs","value":false},{"variable":"PrivilageEscalation","value":false},{"variable":"DNS_queery","value":false},{"variable":"noise","value":false},{"variable":"splunkUF","value":false},{"variable":"protocol","value":"tcp"}]}
+Connection Logs.txt	{"command":"SET","params":[{"variable":"connection","value":true},{"variable":"createAndexecuteMalFile","value":false},{"variable":"brute_force_connection","value":false},{"variable":"WinDefenderLogs","value":false},{"variable":"EmailLogs","value":false},{"variable":"FireWall_Logs","value":false},{"variable":"WebserverLogs","value":false},{"variable":"PrivilageEscalation","value":false},{"variable":"DNS_queery","value":false},{"variable":"noise","value":false},{"variable":"splunkUF","value":false},{"variable":"protocol","value":"tcp"}]}
+Security alert windows defender log.txt	{"command":"SET","params":[{"variable":"WinDefenderLogs","value":true},{"variable":"brute_force_connection","value":false},{"variable":"createAndexecuteMalFile","value":false},{"variable":"connection","value":false},{"variable":"EmailLogs","value":false},{"variable":"FireWall_Logs","value":false},{"variable":"WebserverLogs","value":false},{"variable":"PrivilageEscalation","value":false},{"variable":"DNS_queery","value":false},{"variable":"noise","value":false},{"variable":"splunkUF","value":false},{"variable":"protocol","value":"tcp"}]}
+emaillogs.txt	{"command":"SET","params":[{"variable":"EmailLogs","value":true},{"variable":"brute_force_connection","value":false},{"variable":"createAndexecuteMalFile","value":false},{"variable":"connection","value":false},{"variable":"WinDefenderLogs","value":false},{"variable":"FireWall_Logs","value":false},{"variable":"WebserverLogs","value":false},{"variable":"PrivilageEscalation","value":false},{"variable":"DNS_queery","value":false},{"variable":"noise","value":false},{"variable":"splunkUF","value":false},{"variable":"protocol","value":"tcp"}]}
+firewall log.txt	{"command":"SET","params":[{"variable":"FireWall_Logs","value":true},{"variable":"brute_force_connection","value":false},{"variable":"createAndexecuteMalFile","value":false},{"variable":"connection","value":false},{"variable":"WinDefenderLogs","value":false},{"variable":"EmailLogs","value":false},{"variable":"WebserverLogs","value":false},{"variable":"PrivilageEscalation","value":false},{"variable":"DNS_queery","value":false},{"variable":"noise","value":false},{"variable":"splunkUF","value":false},{"variable":"protocol","value":"tcp"}]}
+webserverlogs.txt	{"command":"SET","params":[{"variable":"WebserverLogs","value":true},{"variable":"brute_force_connection","value":false},{"variable":"createAndexecuteMalFile","value":false},{"variable":"connection","value":false},{"variable":"WinDefenderLogs","value":false},{"variable":"EmailLogs","value":false},{"variable":"FireWall_Logs","value":false},{"variable":"PrivilageEscalation","value":false},{"variable":"DNS_queery","value":false},{"variable":"noise","value":false},{"variable":"splunkUF","value":false},{"variable":"protocol","value":"tcp"}]}
+privilageescalation logs.txt	{"command":"SET","params":[{"variable":"PrivilageEscalation","value":true},{"variable":"brute_force_connection","value":false},{"variable":"createAndexecuteMalFile","value":false},{"variable":"connection","value":false},{"variable":"WinDefenderLogs","value":false},{"variable":"EmailLogs","value":false},{"variable":"FireWall_Logs","value":false},{"variable":"WebserverLogs","value":false},{"variable":"DNS_queery","value":false},{"variable":"noise","value":false},{"variable":"splunkUF","value":false},{"variable":"protocol","value":"tcp"}]}
+DNS queery logs.txt	{"command":"SET","params":[{"variable":"DNS_queery","value":true},{"variable":"brute_force_connection","value":false},{"variable":"createAndexecuteMalFile","value":false},{"variable":"connection","value":false},{"variable":"WinDefenderLogs","value":false},{"variable":"EmailLogs","value":false},{"variable":"FireWall_Logs","value":false},{"variable":"WebserverLogs","value":false},{"variable":"PrivilageEscalation","value":false},{"variable":"noise","value":false},{"variable":"splunkUF","value":false},{"variable":"protocol","value":"tcp"}]}
+NoiseLogs.txt (background noise)	{"command":"SET","params":[{"variable":"noise","value":true},{"variable":"brute_force_connection","value":false},{"variable":"createAndexecuteMalFile","value":false},{"variable":"connection","value":false},{"variable":"WinDefenderLogs","value":false},{"variable":"EmailLogs","value":false},{"variable":"FireWall_Logs","value":false},{"variable":"WebserverLogs","value":false},{"variable":"PrivilageEscalation","value":false},{"variable":"DNS_queery","value":false},{"variable":"splunkUF","value":false},{"variable":"protocol","value":"udp"}]}
