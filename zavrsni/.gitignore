@@ -10,6 +10,12 @@ __pycache__/
 # Docker i image
 *.tar
 *.log
+**/__pycache__/
+**/*.pyc
+logs/
+Logovi/
+Placeholder/logs/
+
 
 # Splunk config
 splunk_config/server.conf

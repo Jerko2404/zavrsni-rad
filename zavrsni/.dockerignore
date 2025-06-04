@@ -3,3 +3,8 @@ Drugi_napad_logovi/
 script/preparse/logs/
 *.jsonl
 *.txt
+**/__pycache__/
+**/*.pyc
+logs/
+Logovi/
+Placeholder/logs/
