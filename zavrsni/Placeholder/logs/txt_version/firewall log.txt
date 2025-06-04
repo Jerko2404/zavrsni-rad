@@ -1,0 +1,42 @@
+2025-01-15T10:30:00Z Firewall: Connection attempt detected
+    Source IP: 45.67.89.101
+    Destination IP: 203.0.113.12
+    Protocol: UDP
+    Port: 53
+2025-01-15T10:30:01Z Firewall: Blocked connection to malicious IP 203.0.113.12 flagged in Threat Intelligence Database
+2025-01-15T10:30:05Z Firewall: Connection attempt detected
+    Source IP: 192.168.1.20
+    Destination IP: 10.0.0.5
+    Protocol: TCP
+    Port: 22
+2025-01-15T10:30:07Z Firewall: Allowed connection from 192.168.1.20 to 10.0.0.5 (internal network)
+2025-01-15T10:30:15Z Firewall: Connection attempt detected
+    Source IP: 172.16.0.8
+    Destination IP: 192.168.1.50
+    Protocol: TCP
+    Port: 443
+2025-01-15T10:30:16Z Firewall: Allowed connection from 172.16.0.8 to 192.168.1.50 (HTTPS traffic)
+2025-01-15T10:30:30Z Firewall: Connection attempt detected
+    Source IP: 192.168.1.101
+    Destination IP: 192.168.1.200
+    Protocol: UDP
+    Port: 123
+2025-01-15T10:30:32Z Firewall: Allowed connection from 192.168.1.101 to 192.168.1.200 (NTP traffic)
+2025-01-15T10:30:40Z Firewall: Connection attempt detected
+    Source IP: 192.168.1.40
+    Destination IP: 192.168.1.45
+    Protocol: TCP
+    Port: 80
+2025-01-15T10:30:42Z Firewall: Allowed connection from 192.168.1.40 to 192.168.1.45 (HTTP traffic)
+2025-01-15T10:30:55Z Firewall: Connection attempt detected
+    Source IP: 10.0.0.10
+    Destination IP: 192.168.1.50
+    Protocol: UDP
+    Port: 161
+2025-01-15T10:30:58Z Firewall: Allowed connection from 10.0.0.10 to 192.168.1.50 (SNMP traffic)
+2025-01-15T10:31:00Z Firewall: Connection attempt detected
+    Source IP: 203.0.113.99
+    Destination IP: 10.0.0.5
+    Protocol: TCP
+    Port: 3389
+2025-01-15T10:31:02Z Firewall: Blocked connection to suspicious IP 203.0.113.99

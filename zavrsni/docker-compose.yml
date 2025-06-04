@@ -1,50 +1,49 @@
-version: "3.8"
-
 services:
-
-  splunk-server:
-    image: splunk/splunk:9.0
-    container_name: splunk-server
+  splunk-enterprise:
+    image: splunk/splunk:latest
+    container_name: splunk-enterprise
     environment:
       - SPLUNK_START_ARGS=--accept-license
       - SPLUNK_PASSWORD=Mojasifra123!
     ports:
       - "8000:8000"
-      - "9997:9997"
       - "8089:8089"
+      - "9997:9997"
+      - "15140:15140"
+      - "1514:1514/udp"
     volumes:
       - splunk_data:/opt/splunk/var
-    tty: true
-    stdin_open: true
+      - ./splunk_enterprise_config:/opt/splunk/etc/system/local
 
   splunk-uf:
-    image: splunk/universalforwarder:9.0.5
+    image: splunk/universalforwarder:latest
     container_name: splunk-uf
-    user: root
     environment:
       - SPLUNK_START_ARGS=--accept-license
-      - SPLUNK_USER=splunk
-      - SPLUNK_PASSWORD=Mojasifra123!
       - SPLUNK_HOME=/opt/splunkforwarder
-      - SPLUNK_SERVER=splunk-server:9997
+      - SPLUNK_PASSWORD=Mojasifra123!
+      - SPLUNK_SERVER=splunk-enterprise:9997
     volumes:
-      - logovi_za_prikaz:/Logovi_za_prikaz
+      - ./Logovi_za_prikaz:/Logovi_za_prikaz
+      - ./Drugi_napad_logovi:/Drugi_napad_logovi
       - ./splunk_config:/opt/splunkforwarder/etc/system/local
-    tty: true
-    stdin_open: true
-
-  python-app:
-    build: .
-    container_name: python-app
-    volumes:
-      - logovi_za_prikaz:/Logovi_za_prikaz
     depends_on:
-      - splunk-uf
+      - splunk-enterprise
+
+  parser-app:
+    image: python:3.13.3-slim-bookworm
+    container_name: parser-app
+    volumes:
+      - ./SOCPRO3.py:/SOCPRO3.py
+      - ./Logovi_za_prikaz:/Logovi_za_prikaz
+      - ./Drugi_napad_logovi:/Drugi_napad_logovi
+    entrypoint: [ "python", "/SOCPRO3.py" ]
     stdin_open: true
     tty: true
     environment:
       - PYTHONUNBUFFERED=1
+    depends_on:
+      - splunk-uf
 
 volumes:
-  logovi_za_prikaz:
   splunk_data:

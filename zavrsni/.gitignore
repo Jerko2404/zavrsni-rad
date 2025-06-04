@@ -15,3 +15,14 @@ __pycache__/
 splunk_config/server.conf
 splunk_config/web.conf
 splunk_config/README
+
+# Splunk_enterprise_config
+splunk_enterprise_config/authorize.conf
+splunk_enterprise_config/distsearch.conf
+splunk_enterprise_config/eventtypes.conf
+splunk_enterprise_config/migration.conf
+splunk_enterprise_config/restmap.conf
+splunk_enterprise_config/server.conf
+splunk_enterprise_config/serverclass.conf
+splunk_enterprise_config/web-features.conf
+splunk_enterprise_config/web.conf

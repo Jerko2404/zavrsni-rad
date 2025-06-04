@@ -1,0 +1,815 @@
+{"line": "{{NOW}} {{HOST_1}} \"GET / HTTP/1.0\" 200 10267 \"https://www.google.com/\" \"Mozilla/5.0 (Windows NT 10.0; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+1}} {{HOST_1}} \"GET /bootstrap/img/favicon.ico HTTP/1.0\" 200 589 \"-\" \"Mozilla/5.0 (Windows NT 10.0; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+2}} {{HOST_1}} \"GET /GitHub-Mark.png HTTP/1.0\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+2}} {{HOST_1}} \"GET /twitter-icon.png HTTP/1.0\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+118}} {{HOST_1}} \"GET /favicon.ico HTTP/1.0\" 200 268 \"-\" \"Mozilla/5.0 (Windows NT 10.0; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+399}} {{HOST_2}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+649}} {{HOST_3}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+649}} {{HOST_3}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+649}} {{HOST_3}} \"GET / HTTP/1.1\" 200 10267 \"http://www.mlsecproject.org/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+650}} {{HOST_3}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+1311}} {{HOST_4}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 200 1279418 \"https://www.google.ae/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+1313}} {{HOST_4}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 206 65874 \"https://www.google.ae/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+1313}} {{HOST_4}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 206 34291 \"https://www.google.ae/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+1314}} {{HOST_4}} \"GET /favicon.ico HTTP/1.1\" 200 267 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+1539}} {{HOST_5}} \"GET /favicon.ico HTTP/1.1\" 200 267 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+1539}} {{HOST_5}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.co.kr/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+1566}} {{HOST_6}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+1566}} {{HOST_6}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+1566}} {{HOST_6}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+1567}} {{HOST_6}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+2398}} {{HOST_7}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+2398}} {{HOST_7}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+2398}} {{HOST_7}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+2399}} {{HOST_7}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+3848}} {{HOST_8}} \"GET / HTTP/1.0\" 200 34363 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36\""}
+{"line": "{{NOW+3848}} {{HOST_8}} \"GET / HTTP/1.0\" 301 461 \"http://secrepo.com/\" \"Mozilla/5.0 (Windows NT 5.1; rv:44.0) Gecko/20100101 Firefox/44.0\""}
+{"line": "{{NOW+4374}} {{HOST_9}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko\""}
+{"line": "{{NOW+4374}} {{HOST_9}} \"GET / HTTP/1.1\" 200 10267 \"http://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=26&cad=rja&uact=8&ved=0ahUKEwj6mdPPkKPRAhWGHxoKHdSCBGo4FBAWCDUwBQ&url=http%3A%2F%2Fwww.secrepo.com%2F&usg=AFQjCNHeQikQ6r63vtqWKlBvSenYpdB4dQ&bvm=bv.142059868,d.d2s\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko\""}
+{"line": "{{NOW+4375}} {{HOST_9}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko\""}
+{"line": "{{NOW+4376}} {{HOST_9}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"-\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko\""}
+{"line": "{{NOW+4651}} {{HOST_10}} \"GET / HTTP/1.1\" 200 10267 \"http://www.mlsecproject.org/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+4652}} {{HOST_10}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+4652}} {{HOST_10}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7427 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+4814}} {{HOST_11}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 200 1279418 \"https://www.google.com.tw\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0\""}
+{"line": "{{NOW+4818}} {{HOST_12}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 206 65873 \"https://www.google.com.tw\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0\""}
+{"line": "{{NOW+4818}} {{HOST_13}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 206 65872 \"https://www.google.com.tw\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0\""}
+{"line": "{{NOW+4818}} {{HOST_13}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 206 34291 \"https://www.google.com.tw\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0\""}
+{"line": "{{NOW+4819}} {{HOST_12}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 206 262482 \"https://www.google.com.tw\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0\""}
+{"line": "{{NOW+4819}} {{HOST_13}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 206 65872 \"https://www.google.com.tw\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0\""}
+{"line": "{{NOW+4819}} {{HOST_14}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 206 65875 \"https://www.google.com.tw\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0\""}
+{"line": "{{NOW+4826}} {{HOST_15}} \"GET /favicon.ico HTTP/1.1\" 200 268 \"-\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0\""}
+{"line": "{{NOW+5316}} {{HOST_16}} \"GET / HTTP/1.1\" 200 10267 \"http://www.mlsecproject.org/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36\""}
+{"line": "{{NOW+5317}} {{HOST_16}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36\""}
+{"line": "{{NOW+5317}} {{HOST_16}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36\""}
+{"line": "{{NOW+5317}} {{HOST_16}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36\""}
+{"line": "{{NOW+5320}} {{HOST_17}} \"GET /favicon.ico HTTP/1.1\" 200 212 \"-\" \"Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; 360space)\""}
+{"line": "{{NOW+5391}} {{HOST_16}} \"GET /maccdc2012/ssl.log.gz HTTP/1.1\" 200 1313675 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36\""}
+{"line": "{{NOW+5490}} {{HOST_18}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+5496}} {{HOST_18}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+5504}} {{HOST_18}} \"GET / HTTP/1.1\" 200 34374 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+5751}} {{HOST_19}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 200 1279418 \"-\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\""}
+{"line": "{{NOW+5943}} {{HOST_20}} \"GET /robots.txt HTTP/1.1\" 200 297 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+5943}} {{HOST_20}} \"GET /robots.txt HTTP/1.1\" 301 465 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+5983}} {{HOST_21}} \"GET / HTTP/1.1\" 200 34363 \"http://www.secrepo.com/\" \"Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.1; Win64; x64; Windows NT 6.1; Trident/5.0)\""}
+{"line": "{{NOW+6177}} {{HOST_22}} \"GET / HTTP/1.1\" 200 10267 \"http://www.naver.com\" \"Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)\""}
+{"line": "{{NOW+6179}} {{HOST_22}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"-\" \"Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)\""}
+{"line": "{{NOW+6476}} {{HOST_1}} \"GET / HTTP/1.0\" 200 10267 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7\""}
+{"line": "{{NOW+6527}} {{HOST_23}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+7558}} {{HOST_24}} \"GET /honeypot/BSidesDFW%20-%202014.ipynb HTTP/1.0\" 200 930799 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5\""}
+{"line": "{{NOW+7597}} {{HOST_25}} \"GET /honeypot/bsidesdfw%20-%202014.ipynb HTTP/1.1\" 301 539 \"-\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+7614}} {{HOST_25}} \"GET /honeypot/bsidesdfw%20-%202014.ipynb HTTP/1.1\" 404 340 \"-\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+7849}} {{HOST_26}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.co.in/\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+7853}} {{HOST_26}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+7854}} {{HOST_26}} \"GET /twitter-icon.png HTTP/1.1\" 200 27788 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+7917}} {{HOST_27}} \"GET /self.logs/access.log.2015-11-01.gz HTTP/1.1\" 200 6465 \"-\" \"Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)\""}
+{"line": "{{NOW+7917}} {{HOST_27}} \"GET /robots.txt HTTP/1.1\" 200 233 \"-\" \"Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)\""}
+{"line": "{{NOW+8364}} {{HOST_28}} \"GET / HTTP/1.1\" 200 34363 \"-\" \"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)\""}
+{"line": "{{NOW+8981}} {{HOST_29}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+8987}} {{HOST_29}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+8992}} {{HOST_29}} \"GET / HTTP/1.1\" 200 34374 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+8993}} {{HOST_18}} \"GET /wp-login.php HTTP/1.1\" 301 522 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+8994}} {{HOST_18}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+8999}} {{HOST_18}} \"GET /wp-login.php HTTP/1.1\" 301 522 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+9000}} {{HOST_18}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+9007}} {{HOST_18}} \"GET / HTTP/1.1\" 301 498 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+9008}} {{HOST_18}} \"GET / HTTP/1.1\" 200 34374 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+9466}} {{HOST_30}} \"GET /apple-touch-icon.png HTTP/1.1\" 404 339 \"-\" \"Safari/12602.{{HOST_31}} CFNetwork/807.2.14 Darwin/16.3.0 (x86_64)\""}
+{"line": "{{NOW+9466}} {{HOST_30}} \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 339 \"-\" \"Safari/12602.{{HOST_31}} CFNetwork/807.2.14 Darwin/16.3.0 (x86_64)\""}
+{"line": "{{NOW+9466}} {{HOST_30}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"-\" \"Safari/12602.{{HOST_31}} CFNetwork/807.2.14 Darwin/16.3.0 (x86_64)\""}
+{"line": "{{NOW+9466}} {{HOST_30}} \"GET /apple-touch-icon.png HTTP/1.1\" 404 339 \"-\" \"Safari/12602.{{HOST_31}} CFNetwork/807.2.14 Darwin/16.3.0 (x86_64)\""}
+{"line": "{{NOW+9466}} {{HOST_30}} \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 340 \"-\" \"Safari/12602.{{HOST_31}} CFNetwork/807.2.14 Darwin/16.3.0 (x86_64)\""}
+{"line": "{{NOW+9466}} {{HOST_30}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko)\""}
+{"line": "{{NOW+9599}} {{HOST_32}} \"GET /honeypot/Honeypot%20-%20Howto%20-%20BSides%20Austin.pdf HTTP/1.1\" 200 2928460 \"-\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\""}
+{"line": "{{NOW+10194}} {{HOST_33}} \"GET /self.logs/ HTTP/1.1\" 200 14663 \"-\" \"Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)\""}
+{"line": "{{NOW+10225}} {{HOST_33}} \"GET /robots.txt HTTP/1.1\" 200 252 \"-\" \"Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)\""}
+{"line": "{{NOW+10545}} {{HOST_34}} \"GET /self.logs/ HTTP/1.1\" 200 14674 \"-\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+10892}} {{HOST_27}} \"GET /maccdc2012/signatures.log.gz HTTP/1.1\" 200 549 \"-\" \"Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)\""}
+{"line": "{{NOW+14127}} {{HOST_35}} \"GET /robots.txt HTTP/1.1\" 200 297 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36\""}
+{"line": "{{NOW+14353}} {{HOST_36}} \"GET / HTTP/1.1\" 200 10211 \"-\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+14358}} {{HOST_37}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+14358}} {{HOST_37}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+14358}} {{HOST_36}} \"GET /favicon.ico HTTP/1.1\" 200 212 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+14358}} {{HOST_37}} \"GET / HTTP/1.1\" 304 189 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+14359}} {{HOST_37}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+14525}} {{HOST_38}} \"GET /udd.php HTTP/1.0\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36\""}
+{"line": "{{NOW+14525}} {{HOST_38}} \"GET /udd.php HTTP/1.0\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36\""}
+{"line": "{{NOW+15070}} {{HOST_39}} \"GET /honeypot/BSidesDFW%20-%202014.ipynb HTTP/1.1\" 200 930799 \"http://yandex.ru/clck/jsredir?from=yandex.ru%3Bsearch%3Bweb%3B%3B&text=&etext=1288.NcizpTYIrIKFVmv2WIJv1tqWRuOQHAauX4lDzDRsw1aHrjkujLYUt5anLdIneu0M.50c617e90d6577492401070ac76cbb8ec49f3dbb&uuid=&state=_BLhILn4SxNIvvL0W45KSic66uCIg23qh8iRG98qeIXmeppkgUc0YCYBcIrWNUha-mUlBiA3OhY&data=UlNrNmk5WktYejR0eWJFYk1LdmtxdFVvX2JPZzkyaEU2WFNsdVNGUmVZbHU3ZjQwYnJsWFQzaTk3eklSTnotZ1h4SW1DUmpSY1JVWlAxT212aTdGbmljek9uMzIxTElNRnUyZGR2aTVBa0llUnpQQl9ka3A0QVVIRG80MGhhdUhtd3lndk9vOXNJNXNEQ2FNNWJFc2ROa2VSTlRCMkVtVA&b64e=2&sign=70f0f6ac4b8f81fd73c613c07fa8df7e&keyno=0&cst=AiuY0DBWFJ7IXge4WdYJQYuwSQLovbTTryfMjxprCVs7vnZTjjpMFM_dv67elkC4YlgJtET6dSPLJf5Bu7hH4tFNqQyXuItq48tXlD6EUvlEXq9TiwoFLvrv4PVC5Lkmdlv2OSq5CKFxVzxJpwGeCA&ref=orjY4mGPRjk5boDnW0uvlrrd71vZw9kp5uQozpMtKCXPiQz_kDwsW2uQDGZp7JLHZlXimqIKRnFA1qJjlCyQapb27bOjQ4wWrUkOL55nAk_JwStvoyY-yQ&l10n=ru&cts=1483269992073&mc=2.71451609898\" \"Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)\""}
+{"line": "{{NOW+15172}} {{HOST_40}} \"GET / HTTP/1.1\" 200 10230 \"https://www.google.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+15173}} {{HOST_40}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7391 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+15173}} {{HOST_40}} \"GET /twitter-icon.png HTTP/1.1\" 200 27751 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+15174}} {{HOST_40}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 553 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+15639}} {{HOST_41}} \"GET / HTTP/1.1\" 304 152 \"-\" \"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)\""}
+{"line": "{{NOW+16240}} {{HOST_42}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.com/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+16242}} {{HOST_42}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+16242}} {{HOST_42}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+16243}} {{HOST_42}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+16316}} {{HOST_42}} \"GET /squid/access.log.gz HTTP/1.1\" 200 18016146 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+16316}} {{HOST_42}} \"GET /squid/access.log.gz HTTP/1.1\" 200 28770 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+16325}} {{HOST_42}} \"GET /squid/access.log.gz HTTP/1.1\" 200 117342 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+16682}} {{HOST_43}} \"GET / HTTP/1.1\" 304 189 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36\""}
+{"line": "{{NOW+16703}} {{HOST_44}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36\""}
+{"line": "{{NOW+16752}} {{HOST_43}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36\""}
+{"line": "{{NOW+17240}} {{HOST_45}} \"GET / HTTP/1.1\" 200 10211 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36\""}
+{"line": "{{NOW+18724}} {{HOST_46}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+18725}} {{HOST_46}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+18725}} {{HOST_46}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+18726}} {{HOST_46}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+19073}} {{HOST_47}} \"GET /robots.txt HTTP/1.1\" 200 289 \"-\" \"Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)\""}
+{"line": "{{NOW+19077}} {{HOST_47}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)\""}
+{"line": "{{NOW+19093}} {{HOST_42}} \"GET /squid/access.log.gz HTTP/1.1\" 200 23177322 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+19913}} {{HOST_48}} \"GET / HTTP/1.1\" 200 10211 \"http://www.mlsecproject.org/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85\""}
+{"line": "{{NOW+19915}} {{HOST_48}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7372 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85\""}
+{"line": "{{NOW+19915}} {{HOST_48}} \"GET /twitter-icon.png HTTP/1.1\" 200 27732 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85\""}
+{"line": "{{NOW+19916}} {{HOST_48}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 534 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85\""}
+{"line": "{{NOW+20257}} {{HOST_49}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+20263}} {{HOST_49}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+20270}} {{HOST_49}} \"GET / HTTP/1.1\" 200 34374 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+20773}} {{HOST_27}} \"GET /auth.log/auth.log.gz HTTP/1.1\" 200 554468 \"-\" \"Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)\""}
+{"line": "{{NOW+21224}} {{HOST_50}} \"GET / HTTP/1.1\" 301 483 \"-\" \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+21423}} {{HOST_50}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+23190}} {{HOST_51}} \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 303 \"-\" \"Safari/11601.7.7 CFNetwork/760.6.3 Darwin/15.6.0 (x86_64)\""}
+{"line": "{{NOW+23190}} {{HOST_51}} \"GET / HTTP/1.1\" 200 10230 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko)\""}
+{"line": "{{NOW+23191}} {{HOST_51}} \"GET /apple-touch-icon.png HTTP/1.1\" 404 303 \"-\" \"Safari/11601.7.7 CFNetwork/760.6.3 Darwin/15.6.0 (x86_64)\""}
+{"line": "{{NOW+23192}} {{HOST_51}} \"GET /apple-touch-icon.png HTTP/1.1\" 404 303 \"-\" \"Safari/11601.7.7 CFNetwork/760.6.3 Darwin/15.6.0 (x86_64)\""}
+{"line": "{{NOW+23192}} {{HOST_51}} \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 303 \"-\" \"Safari/11601.7.7 CFNetwork/760.6.3 Darwin/15.6.0 (x86_64)\""}
+{"line": "{{NOW+23985}} {{HOST_52}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+23985}} {{HOST_52}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+23985}} {{HOST_52}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+24021}} {{HOST_52}} \"GET /pe_static/zeus.zip HTTP/1.1\" 200 51367111 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+24614}} {{HOST_53}} \"GET / HTTP/1.1\" 301 483 \"http://lnkd.in\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92\""}
+{"line": "{{NOW+24615}} {{HOST_53}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92\""}
+{"line": "{{NOW+24615}} {{HOST_53}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92\""}
+{"line": "{{NOW+24615}} {{HOST_53}} \"GET / HTTP/1.1\" 200 10267 \"http://lnkd.in\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92\""}
+{"line": "{{NOW+25389}} {{HOST_52}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+25390}} {{HOST_52}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+25390}} {{HOST_52}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+25401}} {{HOST_52}} \"GET /pe_static/ap1.zip HTTP/1.1\" 404 340 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+25420}} {{HOST_52}} \"GET /Security-Data-Analysis/Lab_1/conn.log.zip HTTP/1.1\" 200 4502388 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+25499}} {{HOST_54}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Linux; Android 6.0.1; SM-G900V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36\""}
+{"line": "{{NOW+25499}} {{HOST_54}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Linux; Android 6.0.1; SM-G900V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36\""}
+{"line": "{{NOW+25499}} {{HOST_54}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Linux; Android 6.0.1; SM-G900V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36\""}
+{"line": "{{NOW+25499}} {{HOST_54}} \"GET / HTTP/1.1\" 301 483 \"-\" \"Mozilla/5.0 (Linux; Android 6.0.1; SM-G900V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36\""}
+{"line": "{{NOW+25500}} {{HOST_54}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Linux; Android 6.0.1; SM-G900V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36\""}
+{"line": "{{NOW+26488}} {{HOST_55}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)\""}
+{"line": "{{NOW+26970}} {{HOST_56}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1\""}
+{"line": "{{NOW+26970}} {{HOST_56}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1\""}
+{"line": "{{NOW+26970}} {{HOST_56}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.com/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1\""}
+{"line": "{{NOW+27086}} {{HOST_56}} \"GET /honeypot/honeypot.json.zip HTTP/1.1\" 200 4631873 \"http://www.secrepo.com/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1\""}
+{"line": "{{NOW+27106}} {{HOST_56}} \"GET /pe_static/zeus.zip HTTP/1.1\" 200 30515940 \"http://www.secrepo.com/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1\""}
+{"line": "{{NOW+27851}} {{HOST_56}} \"GET /pe_static/ap1.zip HTTP/1.1\" 404 340 \"http://www.secrepo.com/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1\""}
+{"line": "{{NOW+27856}} {{HOST_56}} \"GET /pe_static/ap1.zip HTTP/1.1\" 404 340 \"http://www.secrepo.com/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1\""}
+{"line": "{{NOW+28105}} {{HOST_57}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+28110}} {{HOST_57}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+28116}} {{HOST_57}} \"GET / HTTP/1.1\" 200 34374 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+28328}} {{HOST_58}} \"GET /robots.txt HTTP/1.1\" 200 297 \"-\" \"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)\""}
+{"line": "{{NOW+29958}} {{HOST_59}} \"GET / HTTP/1.1\" 200 21900 \"-\" \"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)\""}
+{"line": "{{NOW+29985}} {{HOST_60}} \"GET / HTTP/1.1\" 200 21900 \"-\" \"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)\""}
+{"line": "{{NOW+30323}} {{HOST_34}} \"GET /self.logs/access.log.2016-05-12.gz HTTP/1.1\" 200 14539 \"-\" \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+30717}} {{HOST_61}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"-\" \"facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)\""}
+{"line": "{{NOW+31090}} {{HOST_62}} \"GET / HTTP/1.1\" 200 10230 \"-\" \"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)\""}
+{"line": "{{NOW+32253}} {{HOST_63}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.co.kr/\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+32256}} {{HOST_63}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+32256}} {{HOST_63}} \"GET /twitter-icon.png HTTP/1.1\" 200 27788 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+32262}} {{HOST_63}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+34195}} {{HOST_64}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+34195}} {{HOST_64}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7427 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+34195}} {{HOST_64}} \"GET / HTTP/1.1\" 200 10267 \"http://www.mlsecproject.org/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+34950}} {{HOST_65}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"-\" \"Mozilla/5.0 (Windows NT 6.3; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+35629}} {{HOST_66}} \"GET /honeypot/Honeypot%20-%20Howto%20-%20BSides%20Austin.pdf HTTP/1.1\" 200 2928460 \"-\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\""}
+{"line": "{{NOW+36586}} {{HOST_67}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+36586}} {{HOST_67}} \"GET / HTTP/1.1\" 200 10267 \"http://www.mlsecproject.org/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+36587}} {{HOST_67}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+36587}} {{HOST_67}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+36801}} {{HOST_68}} \"GET /honeypot/BSidesDFW%20-%202014.ipynb HTTP/1.1\" 200 930799 \"http://yandex.ru/clck/jsredir?from=yandex.ru%3Bsearch%3Bweb%3B%3B&text=&etext=1288.gyr_tTpQIeMRr7HipG2FDT4FZfvSVL4VsQ4zLW7xScYrWuVaSeL6ULV7lpfOKQqf.920072da3dea5684be94d025925ecc700c70993c&uuid=&state=_BLhILn4SxNIvvL0W45KSic66uCIg23qh8iRG98qeIXmeppkgUc0YLeQVNu7TCjFWhspMNrg36Y&data=UlNrNmk5WktYejR0eWJFYk1LdmtxdFVvX2JPZzkyaEU2WFNsdVNGUmVZbHU3ZjQwYnJsWFQzaTk3eklSTnotZ1h4SW1DUmpSY1JVWlAxT212aTdGbmljek9uMzIxTElNRnUyZGR2aTVBa0pPbEtESGpZak1EU1Y5RXFVSmxoeThDdUk0X19XZlMtenpadTRXZWJmMEpvVHpVMjdKYjBQaw&b64e=2&sign=fbeae37f07f58e9fe9a04eb10cdc45e4&keyno=0&cst=AiuY0DBWFJ7IXge4WdYJQYpgPUyh7uQlvcCDKr1O9RXtStVAO-e65OCOwu7yCdmLJHOqBp9_ewIeRRKpfD2cFdIf2gkG8FTQYc_ckSbqIW7ABwLKnhXi4TSJ-dRDinJcVuUqyprbVEn0hb3S1UKQ5Lta4D8CsobG&ref=orjY4mGPRjk5boDnW0uvlrrd71vZw9kp5uQozpMtKCXbzzOhnlhWfMKoC_CbJBBip1oEUkk3iIacx5tvf1DIda-RL3fHAURP46bGkCci5VnO6NpAmf5n9Q&l10n=ru&cts=1483294484497&mc=2.8610102145\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36\""}
+{"line": "{{NOW+37751}} {{HOST_69}} \"GET / HTTP/1.1\" 301 446 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38125}} {{HOST_25}} \"GET /maccdc2012/http.log.gz HTTP/1.1\" 200 10904102 \"-\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+38182}} {{HOST_70}} \"GET /self.logs/access.log.2016-11-05.gz HTTP/1.1\" 200 5919 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38205}} {{HOST_71}} \"GET /self.logs/error.log.2016-11-14.gz HTTP/1.1\" 200 651 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38227}} {{HOST_70}} \"GET /self.logs/access.log.2016-07-12.gz HTTP/1.1\" 200 21366 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38258}} {{HOST_72}} \"GET /self.logs/error.log.2016-06-16.gz HTTP/1.1\" 200 1068 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38267}} {{HOST_73}} \"GET /self.logs/error.log.2016-09-12.gz HTTP/1.1\" 200 900 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38283}} {{HOST_74}} \"GET /self.logs/error.log.2016-09-25.gz HTTP/1.1\" 200 1413 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38303}} {{HOST_75}} \"GET /self.logs/error.log.2016-06-22.gz HTTP/1.1\" 200 908 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38321}} {{HOST_71}} \"GET /self.logs/error.log.2016-08-03.gz HTTP/1.1\" 200 1568 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38344}} {{HOST_75}} \"GET /self.logs/access.log.2016-08-03.gz HTTP/1.1\" 200 12271 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38380}} {{HOST_69}} \"GET /self.logs/access.log.2016-11-08.gz HTTP/1.1\" 200 8425 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38382}} {{HOST_76}} \"GET /self.logs/access.log.2016-08-21.gz HTTP/1.1\" 200 7794 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38401}} {{HOST_71}} \"GET /self.logs/error.log.2016-08-08.gz HTTP/1.1\" 200 892 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38436}} {{HOST_77}} \"GET /self.logs/access.log.2016-09-25.gz HTTP/1.1\" 200 7095 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38437}} {{HOST_72}} \"GET /self.logs/access.log.2016-09-14.gz HTTP/1.1\" 200 8588 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38440}} {{HOST_77}} \"GET /self.logs/access.log.2016-09-25.gz HTTP/1.1\" 200 7095 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38457}} {{HOST_73}} \"GET /self.logs/error.log.2016-07-22.gz HTTP/1.1\" 200 1309 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38474}} {{HOST_70}} \"GET /self.logs/access.log.2016-08-13.gz HTTP/1.1\" 200 8471 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38508}} {{HOST_71}} \"GET /self.logs/error.log.2016-11-01.gz HTTP/1.1\" 200 833 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38512}} {{HOST_73}} \"GET /self.logs/access.log.2016-07-16.gz HTTP/1.1\" 200 8656 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38557}} {{HOST_77}} \"GET /self.logs/access.log.2016-08-06.gz HTTP/1.1\" 200 18488 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38557}} {{HOST_77}} \"GET /self.logs/access.log.2016-08-06.gz HTTP/1.1\" 200 18488 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38564}} {{HOST_73}} \"GET /self.logs/error.log.2016-07-09.gz HTTP/1.1\" 200 1028 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38580}} {{HOST_78}} \"GET /self.logs/error.log.2016-07-21.gz HTTP/1.1\" 200 741 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38606}} {{HOST_75}} \"GET /self.logs/access.log.2016-09-12.gz HTTP/1.1\" 200 12313 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38637}} {{HOST_78}} \"GET /self.logs/access.log.2016-11-04.gz HTTP/1.1\" 200 9334 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38638}} {{HOST_71}} \"GET /self.logs/error.log.2016-10-09.gz HTTP/1.1\" 200 800 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38647}} {{HOST_71}} \"GET /self.logs/error.log.2016-10-09.gz HTTP/1.1\" 200 800 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38665}} {{HOST_70}} \"GET /self.logs/error.log.2016-08-25.gz HTTP/1.1\" 200 813 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38668}} {{HOST_79}} \"GET /self.logs/administrator/components/com_joomlaupdate/restore.php?task=stepRestore&factory=Tzo5OiJBS0ZhY3RvcnkiOjE6e3M6MTg6IgBBS0ZhY3RvcnkAdmFybGlzdCI7YToyOntzOjI3OiJraWNrc3RhcnQuc2VjdXJpdHkucGFzc3dvcmQiO3M6MDoiIjtzOjI2OiJraWNrc3RhcnQuc2V0dXAuc291cmNlZmlsZSI7czo0NDoiaHR0cDovL2VjZWxsLm5pdHJrbC5hYy5pbi9pcGl6cG0vd3Q1Mjg5bi56aXAiO319 HTTP/1.1\" 404 239 \"-\" \"Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0)\""}
+{"line": "{{NOW+38670}} {{HOST_71}} \"GET /self.logs/access.log.2016-07-02.gz HTTP/1.1\" 200 5624 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38700}} {{HOST_74}} \"GET /self.logs/error.log.2016-07-23.gz HTTP/1.1\" 200 1325 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38721}} {{HOST_74}} \"GET /self.logs/error.log.2016-11-09.gz HTTP/1.1\" 200 670 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38754}} {{HOST_69}} \"GET /self.logs/error.log.2016-07-31.gz HTTP/1.1\" 200 1076 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38758}} {{HOST_73}} \"GET /self.logs/error.log.2016-11-02.gz HTTP/1.1\" 200 835 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38774}} {{HOST_74}} \"GET /self.logs/error.log.2016-08-07.gz HTTP/1.1\" 200 1817 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38793}} {{HOST_76}} \"GET /self.logs/access.log.2016-06-29.gz HTTP/1.1\" 200 8637 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38818}} {{HOST_74}} \"GET /self.logs/error.log.2016-08-29.gz HTTP/1.1\" 200 924 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38833}} {{HOST_70}} \"GET /self.logs/access.log.2016-11-02.gz HTTP/1.1\" 200 9780 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38873}} {{HOST_76}} \"GET /self.logs/access.log.2016-10-20.gz HTTP/1.1\" 200 8477 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38876}} {{HOST_71}} \"GET /self.logs/error.log.2016-10-19.gz HTTP/1.1\" 200 520 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38876}} {{HOST_71}} \"GET /self.logs/error.log.2016-10-19.gz HTTP/1.1\" 200 520 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38895}} {{HOST_72}} \"GET /self.logs/error.log.2016-08-02.gz HTTP/1.1\" 200 1059 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38912}} {{HOST_76}} \"GET /self.logs/access.log.2016-06-22.gz HTTP/1.1\" 200 13212 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38938}} {{HOST_72}} \"GET /self.logs/access.log.2016-06-15.gz HTTP/1.1\" 200 10976 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38947}} {{HOST_76}} \"GET /self.logs/access.log.2016-10-22.gz HTTP/1.1\" 200 6431 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38969}} {{HOST_74}} \"GET /self.logs/error.log.2016-11-06.gz HTTP/1.1\" 200 1175 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+38989}} {{HOST_74}} \"GET /self.logs/error.log.2016-06-28.gz HTTP/1.1\" 200 1041 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39007}} {{HOST_74}} \"GET /self.logs/error.log.2016-10-05.gz HTTP/1.1\" 200 547 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39026}} {{HOST_75}} \"GET /self.logs/access.log.2016-10-25.gz HTTP/1.1\" 200 12863 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39050}} {{HOST_72}} \"GET /self.logs/access.log.2016-09-11.gz HTTP/1.1\" 200 21811 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39061}} {{HOST_77}} \"GET /self.logs/access.log.2016-06-24.gz HTTP/1.1\" 200 8801 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39087}} {{HOST_71}} \"GET /self.logs/error.log.2016-07-08.gz HTTP/1.1\" 200 678 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39100}} {{HOST_74}} \"GET /self.logs/error.log.2016-11-04.gz HTTP/1.1\" 200 924 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39116}} {{HOST_73}} \"GET /self.logs/error.log.2016-09-19.gz HTTP/1.1\" 200 773 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39139}} {{HOST_72}} \"GET /self.logs/error.log.2016-11-05.gz HTTP/1.1\" 200 776 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39151}} {{HOST_69}} \"GET /self.logs/access.log.2016-10-05.gz HTTP/1.1\" 200 6296 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39174}} {{HOST_77}} \"GET /self.logs/error.log.2016-11-12.gz HTTP/1.1\" 200 672 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39197}} {{HOST_69}} \"GET /self.logs/error.log.2016-10-26.gz HTTP/1.1\" 200 819 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39210}} {{HOST_71}} \"GET /self.logs/access.log.2016-08-31.gz HTTP/1.1\" 200 8508 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39228}} {{HOST_75}} \"GET /self.logs/error.log.2016-08-16.gz HTTP/1.1\" 200 986 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39244}} {{HOST_76}} \"GET /self.logs/error.log.2016-10-02.gz HTTP/1.1\" 200 1639 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39264}} {{HOST_75}} \"GET /self.logs/error.log.2016-08-15.gz HTTP/1.1\" 200 647 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39284}} {{HOST_70}} \"GET /self.logs/access.log.2016-10-30.gz HTTP/1.1\" 200 12610 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39298}} {{HOST_71}} \"GET /self.logs/error.log.2016-06-29.gz HTTP/1.1\" 200 1141 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39318}} {{HOST_78}} \"GET /self.logs/access.log.2016-06-20.gz HTTP/1.1\" 200 9938 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39339}} {{HOST_71}} \"GET /self.logs/access.log.2016-09-20.gz HTTP/1.1\" 200 11130 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39357}} {{HOST_78}} \"GET /self.logs/access.log.2016-07-07.gz HTTP/1.1\" 200 11226 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39379}} {{HOST_69}} \"GET /self.logs/error.log.2016-10-14.gz HTTP/1.1\" 200 708 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39395}} {{HOST_76}} \"GET /self.logs/access.log.2016-07-22.gz HTTP/1.1\" 200 8119 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39411}} {{HOST_76}} \"GET /self.logs/error.log.2016-07-26.gz HTTP/1.1\" 200 853 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39429}} {{HOST_75}} \"GET /self.logs/access.log.2016-07-15.gz HTTP/1.1\" 200 12181 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39447}} {{HOST_78}} \"GET /self.logs/access.log.2016-07-11.gz HTTP/1.1\" 200 11488 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39463}} {{HOST_75}} \"GET /self.logs/access.log.2016-07-21.gz HTTP/1.1\" 200 8374 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39480}} {{HOST_69}} \"GET /self.logs/error.log.2016-10-15.gz HTTP/1.1\" 200 699 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39503}} {{HOST_72}} \"GET /self.logs/access.log.2016-07-05.gz HTTP/1.1\" 200 21090 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39516}} {{HOST_78}} \"GET /self.logs/error.log.2016-07-27.gz HTTP/1.1\" 200 937 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39538}} {{HOST_77}} \"GET /self.logs/access.log.2016-10-28.gz HTTP/1.1\" 200 7296 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39559}} {{HOST_69}} \"GET /self.logs/access.log.2016-07-29.gz HTTP/1.1\" 200 6770 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39570}} {{HOST_77}} \"GET /self.logs/access.log.2016-11-07.gz HTTP/1.1\" 200 11419 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39589}} {{HOST_69}} \"GET /self.logs/access.log.2016-06-30.gz HTTP/1.1\" 200 9198 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39604}} {{HOST_27}} \"GET /maccdc2012/maccdc2012_fast_alert.7z HTTP/1.1\" 200 1141714 \"-\" \"Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)\""}
+{"line": "{{NOW+39610}} {{HOST_69}} \"GET /self.logs/access.log.2016-10-26.gz HTTP/1.1\" 200 11007 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39624}} {{HOST_70}} \"GET /self.logs/access.log.2016-06-18.gz HTTP/1.1\" 200 7950 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39649}} {{HOST_75}} \"GET /self.logs/access.log.2016-10-02.gz HTTP/1.1\" 200 9388 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39663}} {{HOST_70}} \"GET /self.logs/access.log.2016-08-10.gz HTTP/1.1\" 200 5945 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39682}} {{HOST_73}} \"GET /self.logs/access.log.2016-08-30.gz HTTP/1.1\" 200 9205 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39702}} {{HOST_76}} \"GET /self.logs/access.log.2016-11-13.gz HTTP/1.1\" 200 12404 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39716}} {{HOST_74}} \"GET /self.logs/access.log.2016-07-30.gz HTTP/1.1\" 200 5568 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39734}} {{HOST_76}} \"GET /self.logs/error.log.2016-11-13.gz HTTP/1.1\" 200 880 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39755}} {{HOST_69}} \"GET /self.logs/error.log.2016-07-29.gz HTTP/1.1\" 200 970 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39770}} {{HOST_70}} \"GET /self.logs/access.log.2016-07-17.gz HTTP/1.1\" 200 6411 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39788}} {{HOST_69}} \"GET /self.logs/error.log.2016-06-23.gz HTTP/1.1\" 200 789 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39809}} {{HOST_78}} \"GET /self.logs/error.log.2016-06-24.gz HTTP/1.1\" 200 1325 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39827}} {{HOST_72}} \"GET /self.logs/access.log.2016-08-22.gz HTTP/1.1\" 200 8830 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39843}} {{HOST_75}} \"GET /self.logs/access.log.2016-08-02.gz HTTP/1.1\" 200 9918 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39864}} {{HOST_71}} \"GET /self.logs/error.log.2016-09-04.gz HTTP/1.1\" 200 1029 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39879}} {{HOST_78}} \"GET /self.logs/error.log.2016-10-12.gz HTTP/1.1\" 200 1276 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39892}} {{HOST_19}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 200 1279418 \"-\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\""}
+{"line": "{{NOW+39898}} {{HOST_72}} \"GET /self.logs/error.log.2016-08-31.gz HTTP/1.1\" 200 796 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39913}} {{HOST_77}} \"GET /self.logs/access.log.2016-09-10.gz HTTP/1.1\" 200 5328 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39937}} {{HOST_69}} \"GET /self.logs/error.log.2016-07-20.gz HTTP/1.1\" 200 981 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39951}} {{HOST_75}} \"GET /self.logs/error.log.2016-09-29.gz HTTP/1.1\" 200 550 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39968}} {{HOST_70}} \"GET /self.logs/error.log.2016-10-20.gz HTTP/1.1\" 200 660 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+39986}} {{HOST_76}} \"GET /self.logs/access.log.2016-06-23.gz HTTP/1.1\" 200 7032 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40007}} {{HOST_78}} \"GET /self.logs/access.log.2016-10-15.gz HTTP/1.1\" 200 6915 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40024}} {{HOST_70}} \"GET /self.logs/error.log.2016-09-02.gz HTTP/1.1\" 200 735 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40042}} {{HOST_71}} \"GET /self.logs/access.log.2016-04-19.gz HTTP/1.1\" 200 23663 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40060}} {{HOST_70}} \"GET /self.logs/error.log.2016-05-28.gz HTTP/1.1\" 200 589 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40080}} {{HOST_74}} \"GET /self.logs/access.log.2015-03-12.gz HTTP/1.1\" 200 9523 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40094}} {{HOST_69}} \"GET /self.logs/error.log.2015-01-21.gz HTTP/1.1\" 200 579 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40114}} {{HOST_76}} \"GET /self.logs/access.log.2015-06-12.gz HTTP/1.1\" 200 6190 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40132}} {{HOST_71}} \"GET /self.logs/error.log.2016-02-12.gz HTTP/1.1\" 200 814 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40147}} {{HOST_75}} \"GET /self.logs/error.log.2015-02-13.gz HTTP/1.1\" 200 5419 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40170}} {{HOST_73}} \"GET /self.logs/access.log.2015-04-24.gz HTTP/1.1\" 200 3685 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40191}} {{HOST_74}} \"GET /self.logs/error.log.2015-04-25.gz HTTP/1.1\" 200 956 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40201}} {{HOST_74}} \"GET /self.logs/error.log.2016-05-26.gz HTTP/1.1\" 200 771 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40213}} {{HOST_80}} \"GET / HTTP/1.1\" 200 10230 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36\""}
+{"line": "{{NOW+40214}} {{HOST_81}} \"GET / HTTP/1.1\" 200 10230 \"-\" \"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)\""}
+{"line": "{{NOW+40223}} {{HOST_74}} \"GET /self.logs/error.log.2015-06-30.gz HTTP/1.1\" 200 756 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40243}} {{HOST_75}} \"GET /self.logs/error.log.2015-04-11.gz HTTP/1.1\" 200 1758 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40256}} {{HOST_69}} \"GET /self.logs/access.log.2015-11-12.gz HTTP/1.1\" 200 6074 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40277}} {{HOST_78}} \"GET /self.logs/access.log.2016-04-15.gz HTTP/1.1\" 200 11780 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40292}} {{HOST_71}} \"GET /self.logs/access.log.2016-01-09.gz HTTP/1.1\" 200 13008 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40313}} {{HOST_77}} \"GET /self.logs/access.log.2016-05-09.gz HTTP/1.1\" 200 8385 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40328}} {{HOST_73}} \"GET /self.logs/access.log.2015-11-30.gz HTTP/1.1\" 200 5189 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40349}} {{HOST_73}} \"GET /self.logs/error.log.2015-06-18.gz HTTP/1.1\" 200 670 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40367}} {{HOST_75}} \"GET /self.logs/error.log.2015-10-16.gz HTTP/1.1\" 200 774 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40382}} {{HOST_75}} \"GET /self.logs/error.log.2015-12-14.gz HTTP/1.1\" 200 643 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40402}} {{HOST_71}} \"GET /self.logs/access.log.2016-06-02.gz HTTP/1.1\" 200 11263 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40420}} {{HOST_75}} \"GET /self.logs/error.log.2016-05-12.gz HTTP/1.1\" 200 992 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40428}} {{HOST_82}} \"HEAD /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 200 226 \"-\" \"curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.19.1 Basic ECC zlib/1.2.3 libidn/1.18 libssh2/1.4.2\""}
+{"line": "{{NOW+40440}} {{HOST_70}} \"GET /self.logs/error.log.2016-03-04.gz HTTP/1.1\" 200 943 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40463}} {{HOST_71}} \"GET /self.logs/error.log.2016-05-04.gz HTTP/1.1\" 200 744 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40475}} {{HOST_77}} \"GET /self.logs/error.log.2015-01-23.gz HTTP/1.1\" 200 610 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40502}} {{HOST_77}} \"GET /self.logs/error.log.2015-11-21.gz HTTP/1.1\" 200 1001 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40510}} {{HOST_72}} \"GET /self.logs/error.log.2016-02-04.gz HTTP/1.1\" 200 871 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40528}} {{HOST_78}} \"GET /self.logs/error.log.2015-10-22.gz HTTP/1.1\" 200 958 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40547}} {{HOST_78}} \"GET /self.logs/error.log.2016-01-23.gz HTTP/1.1\" 200 847 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40564}} {{HOST_76}} \"GET /maccdc2012/dns.log.gz HTTP/1.1\" 200 305376 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40580}} {{HOST_69}} \"GET /self.logs/error.log.2015-07-04.gz HTTP/1.1\" 200 827 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40601}} {{HOST_73}} \"GET /self.logs/error.log.2015-03-17.gz HTTP/1.1\" 200 794 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40617}} {{HOST_71}} \"GET /self.logs/error.log.2015-08-26.gz HTTP/1.1\" 200 646 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40638}} {{HOST_70}} \"GET /self.logs/error.log.2016-02-08.gz HTTP/1.1\" 200 676 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40654}} {{HOST_74}} \"GET /self.logs/access.log.2016-04-16.gz HTTP/1.1\" 200 9797 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40677}} {{HOST_76}} \"GET /self.logs/error.log.2015-07-19.gz HTTP/1.1\" 200 1059 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40692}} {{HOST_69}} \"GET /self.logs/error.log.2015-10-15.gz HTTP/1.1\" 200 1075 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40715}} {{HOST_69}} \"GET /self.logs/error.log.2015-10-28.gz HTTP/1.1\" 200 802 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40728}} {{HOST_73}} \"GET /self.logs/access.log.2015-04-17.gz HTTP/1.1\" 200 6180 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40746}} {{HOST_71}} \"GET /self.logs/error.log.2016-03-10.gz HTTP/1.1\" 200 823 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40762}} {{HOST_73}} \"GET /self.logs/error.log.2015-03-27.gz HTTP/1.1\" 200 890 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40779}} {{HOST_70}} \"GET /self.logs/error.log.2015-12-05.gz HTTP/1.1\" 200 757 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40801}} {{HOST_74}} \"GET /self.logs/access.log.2015-05-17.gz HTTP/1.1\" 200 4073 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40816}} {{HOST_78}} \"GET /self.logs/error.log.2015-08-11.gz HTTP/1.1\" 200 798 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40835}} {{HOST_75}} \"GET /self.logs/access.log.2015-07-21.gz HTTP/1.1\" 200 5874 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40854}} {{HOST_74}} \"GET /self.logs/error.log.2015-12-01.gz HTTP/1.1\" 200 728 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40872}} {{HOST_75}} \"GET /self.logs/error.log.2015-11-30.gz HTTP/1.1\" 200 853 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40890}} {{HOST_74}} \"GET /self.logs/error.log.2015-01-29.gz HTTP/1.1\" 200 1460 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40908}} {{HOST_69}} \"GET /self.logs/error.log.2016-04-24.gz HTTP/1.1\" 200 616 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40927}} {{HOST_69}} \"GET /self.logs/access.log.2015-08-06.gz HTTP/1.1\" 200 6129 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40941}} {{HOST_83}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon\""}
+{"line": "{{NOW+40941}} {{HOST_84}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon\""}
+{"line": "{{NOW+40953}} {{HOST_72}} \"GET /self.logs/error.log.2015-09-24.gz HTTP/1.1\" 200 696 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40963}} {{HOST_78}} \"GET /self.logs/access.log.2015-03-11.gz HTTP/1.1\" 200 2423 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40978}} {{HOST_71}} \"GET /self.logs/error.log.2016-01-17.gz HTTP/1.1\" 200 693 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+40996}} {{HOST_76}} \"GET /self.logs/access.log.2015-12-19.gz HTTP/1.1\" 200 6389 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41013}} {{HOST_71}} \"GET /self.logs/error.log.2016-04-25.gz HTTP/1.1\" 200 1220 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41033}} {{HOST_72}} \"GET /self.logs/access.log.2016-05-10.gz HTTP/1.1\" 200 11253 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41051}} {{HOST_70}} \"GET /self.logs/access.log.2015-10-08.gz HTTP/1.1\" 200 3870 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41068}} {{HOST_76}} \"GET /self.logs/error.log.2015-08-07.gz HTTP/1.1\" 200 1058 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41092}} {{HOST_70}} \"GET /self.logs/error.log.2015-04-21.gz HTTP/1.1\" 200 2166 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41106}} {{HOST_74}} \"GET /self.logs/access.log.2015-07-17.gz HTTP/1.1\" 200 4609 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41126}} {{HOST_69}} \"GET /self.logs/access.log.2015-12-09.gz HTTP/1.1\" 200 7689 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41141}} {{HOST_78}} \"GET /squid/access.log.gz HTTP/1.1\" 200 295241 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41163}} {{HOST_78}} \"GET /self.logs/access.log.2015-10-18.gz HTTP/1.1\" 200 4376 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41181}} {{HOST_77}} \"GET /self.logs/error.log.2015-11-13.gz HTTP/1.1\" 200 567 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41200}} {{HOST_78}} \"GET /self.logs/error.log.2015-05-09.gz HTTP/1.1\" 200 741 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41217}} {{HOST_72}} \"GET /self.logs/error.log.2016-05-05.gz HTTP/1.1\" 200 690 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41232}} {{HOST_72}} \"GET /self.logs/access.log.2015-02-13.gz HTTP/1.1\" 200 15573 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41254}} {{HOST_74}} \"GET /self.logs/error.log.2015-01-28.gz HTTP/1.1\" 200 607 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41271}} {{HOST_70}} \"GET /self.logs/access.log.2015-12-03.gz HTTP/1.1\" 200 5151 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41291}} {{HOST_77}} \"GET /self.logs/error.log.2015-06-04.gz HTTP/1.1\" 200 931 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41308}} {{HOST_72}} \"GET /self.logs/access.log.2015-04-21.gz HTTP/1.1\" 200 6686 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41323}} {{HOST_78}} \"GET /self.logs/access.log.2016-01-25.gz HTTP/1.1\" 200 6640 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41341}} {{HOST_70}} \"GET /self.logs/error.log.2015-01-27.gz HTTP/1.1\" 200 635 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41358}} {{HOST_74}} \"GET /self.logs/access.log.2016-04-17.gz HTTP/1.1\" 200 8951 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41375}} {{HOST_75}} \"GET /self.logs/error.log.2015-11-17.gz HTTP/1.1\" 200 565 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41393}} {{HOST_73}} \"GET /self.logs/access.log.2016-02-09.gz HTTP/1.1\" 200 9365 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41415}} {{HOST_71}} \"GET /self.logs/error.log.2016-01-06.gz HTTP/1.1\" 200 689 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41435}} {{HOST_72}} \"GET /self.logs/access.log.2016-02-20.gz HTTP/1.1\" 200 10101 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41450}} {{HOST_77}} \"GET /self.logs/error.log.2015-12-02.gz HTTP/1.1\" 200 621 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41468}} {{HOST_74}} \"GET /self.logs/access.log.2015-01-26.gz HTTP/1.1\" 200 3220 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41484}} {{HOST_73}} \"GET /self.logs/access.log.2015-09-02.gz HTTP/1.1\" 200 3890 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41507}} {{HOST_75}} \"GET /self.logs/access.log.2015-08-07.gz HTTP/1.1\" 200 4598 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41520}} {{HOST_76}} \"GET /self.logs/access.log.2015-02-07.gz HTTP/1.1\" 200 2783 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41543}} {{HOST_77}} \"GET /self.logs/error.log.2015-08-19.gz HTTP/1.1\" 200 766 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41561}} {{HOST_75}} \"GET /self.logs/access.log.2015-08-08.gz HTTP/1.1\" 200 2816 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41581}} {{HOST_73}} \"GET /self.logs/access.log.2015-04-26.gz HTTP/1.1\" 200 3853 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41608}} {{HOST_77}} \"GET /self.logs/error.log.2016-03-14.gz HTTP/1.1\" 200 902 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41617}} {{HOST_76}} \"GET /self.logs/access.log.2015-02-05.gz HTTP/1.1\" 200 3517 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41638}} {{HOST_69}} \"GET /self.logs/error.log.2015-11-19.gz HTTP/1.1\" 200 1657 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41665}} {{HOST_70}} \"GET /self.logs/error.log.2015-01-19.gz HTTP/1.1\" 200 1139 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41678}} {{HOST_69}} \"GET /self.logs/access.log.2015-04-14.gz HTTP/1.1\" 200 5028 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41710}} {{HOST_75}} \"GET /self.logs/error.log.2016-05-18.gz HTTP/1.1\" 200 664 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41716}} {{HOST_72}} \"GET /self.logs/access.log.2015-09-24.gz HTTP/1.1\" 200 4767 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41737}} {{HOST_75}} \"GET /self.logs/access.log.2016-05-23.gz HTTP/1.1\" 200 15193 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41761}} {{HOST_74}} \"GET /self.logs/access.log.2015-12-26.gz HTTP/1.1\" 200 3786 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41772}} {{HOST_69}} \"GET /self.logs/error.log.2016-04-17.gz HTTP/1.1\" 200 825 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41794}} {{HOST_71}} \"GET /self.logs/error.log.2015-08-16.gz HTTP/1.1\" 200 2656 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41824}} {{HOST_85}} \"GET /maccdc2012/http.log.gz HTTP/1.1\" 200 16758642 \"-\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 BingPreview/1.0b\""}
+{"line": "{{NOW+41824}} {{HOST_74}} \"GET /self.logs/access.log.2016-06-11.gz HTTP/1.1\" 200 7697 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41843}} {{HOST_70}} \"GET /self.logs/error.log.2016-06-11.gz HTTP/1.1\" 200 816 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41852}} {{HOST_78}} \"GET /self.logs/access.log.2015-08-27.gz HTTP/1.1\" 200 6066 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41888}} {{HOST_77}} \"GET /self.logs/access.log.2015-05-29.gz HTTP/1.1\" 200 3713 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41889}} {{HOST_70}} \"GET /self.logs/error.log.2015-04-04.gz HTTP/1.1\" 200 2224 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41889}} {{HOST_70}} \"GET /self.logs/error.log.2015-04-04.gz HTTP/1.1\" 200 2224 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41908}} {{HOST_78}} \"GET /self.logs/access.log.2016-01-01.gz HTTP/1.1\" 200 5468 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41935}} {{HOST_71}} \"GET /self.logs/access.log.2015-03-20.gz HTTP/1.1\" 200 4178 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41944}} {{HOST_78}} \"GET /self.logs/error.log.2015-02-27.gz HTTP/1.1\" 200 825 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41966}} {{HOST_71}} \"GET /self.logs/?C=S%3BO%3DA HTTP/1.1\" 200 14663 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+41992}} {{HOST_71}} \"GET /self.logs/?C=S%3BO%3DA HTTP/1.1\" 200 14663 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42000}} {{HOST_74}} \"GET /self.logs/error.log.2015-07-23.gz HTTP/1.1\" 200 1053 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42005}} {{HOST_78}} \"GET /self.logs/error.log.2015-07-13.gz HTTP/1.1\" 200 802 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42029}} {{HOST_72}} \"GET /self.logs/error.log.2016-03-29.gz HTTP/1.1\" 200 705 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42044}} {{HOST_72}} \"GET /self.logs/access.log.2015-12-02.gz HTTP/1.1\" 200 5957 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42064}} {{HOST_71}} \"GET /self.logs/access.log.2016-04-09.gz HTTP/1.1\" 200 11424 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42078}} {{HOST_75}} \"GET /self.logs/error.log.2016-06-01.gz HTTP/1.1\" 200 1622 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42114}} {{HOST_74}} \"GET /self.logs/access.log.2015-08-22.gz HTTP/1.1\" 200 4457 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42122}} {{HOST_86}} \"GET /robots.txt HTTP/1.1\" 200 289 \"-\" \"Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)\""}
+{"line": "{{NOW+42122}} {{HOST_70}} \"GET /self.logs/access.log.2015-05-01.gz HTTP/1.1\" 200 4450 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42127}} {{HOST_86}} \"GET /honeypot//%22http://amunhoney.sourceforge.net//%22 HTTP/1.1\" 404 239 \"-\" \"Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)\""}
+{"line": "{{NOW+42136}} {{HOST_78}} \"GET /self.logs/access.log.2015-02-27.gz HTTP/1.1\" 200 3186 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42163}} {{HOST_74}} \"GET /self.logs/error.log.2015-06-15.gz HTTP/1.1\" 200 1292 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42171}} {{HOST_74}} \"GET /self.logs/access.log.2015-06-13.gz HTTP/1.1\" 200 3578 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42189}} {{HOST_76}} \"GET /self.logs/error.log.2016-02-09.gz HTTP/1.1\" 200 640 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42214}} {{HOST_75}} \"GET /self.logs/error.log.2015-08-15.gz HTTP/1.1\" 200 650 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42228}} {{HOST_75}} \"GET /self.logs/access.log.2015-05-09.gz HTTP/1.1\" 200 2819 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42249}} {{HOST_71}} \"GET /self.logs/access.log.2016-03-28.gz HTTP/1.1\" 200 12351 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42262}} {{HOST_75}} \"GET /self.logs/access.log.2015-06-03.gz HTTP/1.1\" 200 3363 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42289}} {{HOST_72}} \"GET /self.logs/access.log.2016-03-22.gz HTTP/1.1\" 200 8257 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42303}} {{HOST_77}} \"GET /self.logs/access.log.2015-03-22.gz HTTP/1.1\" 200 3642 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42315}} {{HOST_74}} \"GET /self.logs/error.log.2015-02-28.gz HTTP/1.1\" 200 939 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42339}} {{HOST_75}} \"GET /self.logs/error.log.2016-01-30.gz HTTP/1.1\" 200 671 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42357}} {{HOST_72}} \"GET /self.logs/access.log.2016-04-03.gz HTTP/1.1\" 200 14138 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42372}} {{HOST_76}} \"GET /self.logs/error.log.2016-02-13.gz HTTP/1.1\" 200 812 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42393}} {{HOST_76}} \"GET /self.logs/access.log.2015-10-02.gz HTTP/1.1\" 200 3773 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42419}} {{HOST_76}} \"GET /self.logs/error.log.2016-04-04.gz HTTP/1.1\" 200 617 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42427}} {{HOST_69}} \"GET /self.logs/error.log.2015-10-24.gz HTTP/1.1\" 200 830 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42444}} {{HOST_77}} \"GET /self.logs/access.log.2015-08-09.gz HTTP/1.1\" 200 4540 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42464}} {{HOST_76}} \"GET /self.logs/error.log.2016-02-07.gz HTTP/1.1\" 200 695 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42484}} {{HOST_73}} \"GET /self.logs/error.log.2015-09-25.gz HTTP/1.1\" 200 761 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42501}} {{HOST_76}} \"GET /self.logs/error.log.2015-07-02.gz HTTP/1.1\" 200 803 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42518}} {{HOST_69}} \"GET /self.logs/error.log.2015-03-25.gz HTTP/1.1\" 200 928 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42538}} {{HOST_76}} \"GET /self.logs/access.log.2015-05-13.gz HTTP/1.1\" 200 7807 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42554}} {{HOST_77}} \"GET /self.logs/access.log.2016-01-30.gz HTTP/1.1\" 200 34273 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42582}} {{HOST_70}} \"GET /self.logs/access.log.2015-06-24.gz HTTP/1.1\" 200 4057 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42595}} {{HOST_73}} \"GET /self.logs/access.log.2016-03-29.gz HTTP/1.1\" 200 8883 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42607}} {{HOST_78}} \"GET /self.logs/error.log.2016-01-26.gz HTTP/1.1\" 200 714 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42637}} {{HOST_73}} \"GET /self.logs/access.log.2016-01-15.gz HTTP/1.1\" 200 7490 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42648}} {{HOST_72}} \"GET /self.logs/access.log.2015-02-23.gz HTTP/1.1\" 200 10578 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42670}} {{HOST_72}} \"GET /self.logs/error.log.2015-06-05.gz HTTP/1.1\" 200 637 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42687}} {{HOST_76}} \"GET /self.logs/error.log.2016-02-20.gz HTTP/1.1\" 200 528 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42711}} {{HOST_70}} \"GET /self.logs/error.log.2015-06-14.gz HTTP/1.1\" 200 886 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42722}} {{HOST_75}} \"GET /self.logs/access.log.2015-01-30.gz HTTP/1.1\" 200 6235 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42743}} {{HOST_71}} \"GET /self.logs/access.log.2015-01-19.gz HTTP/1.1\" 200 2799 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42759}} {{HOST_78}} \"GET /self.logs/access.log.2015-03-23.gz HTTP/1.1\" 200 4096 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42775}} {{HOST_69}} \"GET /self.logs/access.log.2015-06-25.gz HTTP/1.1\" 200 3792 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42796}} {{HOST_74}} \"GET /self.logs/error.log.2015-08-22.gz HTTP/1.1\" 200 664 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42812}} {{HOST_72}} \"GET /self.logs/error.log.2015-11-04.gz HTTP/1.1\" 200 1046 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42829}} {{HOST_70}} \"GET /self.logs/error.log.2015-05-14.gz HTTP/1.1\" 200 1026 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42845}} {{HOST_71}} \"GET /self.logs/access.log.2016-06-13.gz HTTP/1.1\" 200 20921 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42866}} {{HOST_72}} \"GET /self.logs/error.log.2015-03-29.gz HTTP/1.1\" 200 801 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42887}} {{HOST_78}} \"GET /self.logs/access.log.2016-03-07.gz HTTP/1.1\" 200 9442 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42901}} {{HOST_70}} \"GET /maccdc2012/http.log.gz HTTP/1.1\" 200 296701 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42920}} {{HOST_70}} \"GET /self.logs/error.log.2015-07-14.gz HTTP/1.1\" 200 615 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42942}} {{HOST_77}} \"GET /self.logs/access.log.2015-08-04.gz HTTP/1.1\" 200 5744 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42961}} {{HOST_76}} \"GET /self.logs/error.log.2015-06-16.gz HTTP/1.1\" 200 710 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42978}} {{HOST_72}} \"GET /self.logs/error.log.2015-01-31.gz HTTP/1.1\" 200 732 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+42996}} {{HOST_71}} \"GET /self.logs/access.log.2016-04-14.gz HTTP/1.1\" 200 9233 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43019}} {{HOST_72}} \"GET /self.logs/error.log.2015-05-17.gz HTTP/1.1\" 200 749 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43037}} {{HOST_70}} \"GET /self.logs/access.log.2015-05-19.gz HTTP/1.1\" 200 4744 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43053}} {{HOST_70}} \"GET /self.logs/error.log.2016-06-14.gz HTTP/1.1\" 200 1198 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43070}} {{HOST_70}} \"GET /self.logs/access.log.2015-01-18.gz HTTP/1.1\" 200 3435 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43091}} {{HOST_75}} \"GET /self.logs/error.log.2015-02-10.gz HTTP/1.1\" 200 4865 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43109}} {{HOST_69}} \"GET /self.logs/access.log.2016-01-13.gz HTTP/1.1\" 200 6515 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43126}} {{HOST_78}} \"GET /self.logs/access.log.2015-07-18.gz HTTP/1.1\" 200 5186 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43146}} {{HOST_71}} \"GET /self.logs/error.log.2015-12-03.gz HTTP/1.1\" 200 682 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43163}} {{HOST_70}} \"GET /self.logs/error.log.2015-02-19.gz HTTP/1.1\" 200 5365 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43166}} {{HOST_87}} \"GET /self.logs/access.log.2015-02-14.gz HTTP/1.1\" 200 25834 \"-\" \"Python-urllib/2.7\""}
+{"line": "{{NOW+43179}} {{HOST_73}} \"GET /self.logs/access.log.2015-08-25.gz HTTP/1.1\" 200 6475 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43201}} {{HOST_69}} \"GET /self.logs/error.log.2015-04-08.gz HTTP/1.1\" 200 557 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43217}} {{HOST_72}} \"GET /self.logs/error.log.2015-05-23.gz HTTP/1.1\" 200 747 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43241}} {{HOST_76}} \"GET /self.logs/access.log.2015-04-05.gz HTTP/1.1\" 200 3487 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43259}} {{HOST_76}} \"GET /self.logs/error.log.2015-05-05.gz HTTP/1.1\" 200 649 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43274}} {{HOST_73}} \"GET /self.logs/access.log.2015-04-27.gz HTTP/1.1\" 200 7295 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43290}} {{HOST_69}} \"GET /self.logs/error.log.2016-03-18.gz HTTP/1.1\" 200 654 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43316}} {{HOST_76}} \"GET /self.logs/error.log.2015-09-14.gz HTTP/1.1\" 200 1004 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43330}} {{HOST_70}} \"GET /self.logs/access.log.2015-04-16.gz HTTP/1.1\" 200 11899 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43352}} {{HOST_69}} \"GET /self.logs/access.log.2016-02-04.gz HTTP/1.1\" 200 7223 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43378}} {{HOST_72}} \"GET /self.logs/access.log.2015-12-08.gz HTTP/1.1\" 200 9224 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43392}} {{HOST_73}} \"GET /self.logs/access.log.2015-12-24.gz HTTP/1.1\" 200 5373 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43411}} {{HOST_74}} \"GET /self.logs/error.log.2016-01-18.gz HTTP/1.1\" 200 1106 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43436}} {{HOST_77}} \"GET /self.logs/error.log.2015-08-12.gz HTTP/1.1\" 200 957 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43455}} {{HOST_74}} \"GET /self.logs/error.log.2015-11-18.gz HTTP/1.1\" 200 967 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43474}} {{HOST_74}} \"GET /self.logs/access.log.2016-03-15.gz HTTP/1.1\" 200 7114 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43495}} {{HOST_70}} \"GET /self.logs/access.log.2015-08-20.gz HTTP/1.1\" 200 5268 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43513}} {{HOST_69}} \"GET /self.logs/access.log.2015-08-30.gz HTTP/1.1\" 200 4415 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43533}} {{HOST_74}} \"GET /self.logs/access.log.2015-02-19.gz HTTP/1.1\" 200 12911 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43561}} {{HOST_78}} \"GET /self.logs/access.log.2016-06-06.gz HTTP/1.1\" 200 8410 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43570}} {{HOST_74}} \"GET /self.logs/error.log.2015-06-12.gz HTTP/1.1\" 200 1004 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43584}} {{HOST_69}} \"GET /self.logs/error.log.2015-02-04.gz HTTP/1.1\" 200 501 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43616}} {{HOST_75}} \"GET /self.logs/access.log.2015-01-25.gz HTTP/1.1\" 200 3024 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43632}} {{HOST_75}} \"GET /self.logs/access.log.2016-05-19.gz HTTP/1.1\" 200 10166 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43662}} {{HOST_78}} \"GET /self.logs/access.log.2015-06-16.gz HTTP/1.1\" 200 9097 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43684}} {{HOST_72}} \"GET /self.logs/error.log.2015-08-31.gz HTTP/1.1\" 200 767 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43690}} {{HOST_74}} \"GET /self.logs/access.log.2015-12-31.gz HTTP/1.1\" 200 6757 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43729}} {{HOST_77}} \"GET /self.logs/access.log.2015-05-11.gz HTTP/1.1\" 200 5129 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43734}} {{HOST_72}} \"GET /self.logs/access.log.2015-03-29.gz HTTP/1.1\" 200 3467 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43758}} {{HOST_76}} \"GET /maccdc2012/weird.log.gz HTTP/1.1\" 200 305376 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43767}} {{HOST_72}} \"GET /self.logs/access.log.2016-04-23.gz HTTP/1.1\" 200 6397 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43783}} {{HOST_72}} \"GET /self.logs/access.log.2015-09-21.gz HTTP/1.1\" 200 5487 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43804}} {{HOST_71}} \"GET /self.logs/error.log.2016-02-11.gz HTTP/1.1\" 200 830 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43825}} {{HOST_69}} \"GET /self.logs/error.log.2015-11-24.gz HTTP/1.1\" 200 1024 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43848}} {{HOST_75}} \"GET /self.logs/error.log.2015-07-31.gz HTTP/1.1\" 200 825 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43862}} {{HOST_69}} \"GET /self.logs/error.log.2015-08-08.gz HTTP/1.1\" 200 742 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43882}} {{HOST_73}} \"GET /self.logs/access.log.2015-03-10.gz HTTP/1.1\" 200 13373 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43897}} {{HOST_70}} \"GET /self.logs/error.log.2015-10-19.gz HTTP/1.1\" 200 692 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43934}} {{HOST_72}} \"GET /self.logs/access.log.2015-09-03.gz HTTP/1.1\" 200 4912 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43941}} {{HOST_70}} \"GET /self.logs/access.log.2015-06-07.gz HTTP/1.1\" 200 3415 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43968}} {{HOST_75}} \"GET /self.logs/access.log.2015-02-14.gz HTTP/1.1\" 200 25915 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43984}} {{HOST_76}} \"GET /self.logs/error.log.2015-04-09.gz HTTP/1.1\" 200 581 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+43991}} {{HOST_71}} \"GET /self.logs/error.log.2015-06-21.gz HTTP/1.1\" 200 2241 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44033}} {{HOST_77}} \"GET /self.logs/error.log.2015-03-03.gz HTTP/1.1\" 200 873 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44033}} {{HOST_77}} \"GET /self.logs/error.log.2015-03-03.gz HTTP/1.1\" 200 873 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44038}} {{HOST_78}} \"GET /self.logs/access.log.2015-07-26.gz HTTP/1.1\" 200 3464 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44061}} {{HOST_70}} \"GET /self.logs/access.log.2015-02-28.gz HTTP/1.1\" 200 2949 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44090}} {{HOST_70}} \"GET /self.logs/access.log.2016-03-24.gz HTTP/1.1\" 200 11197 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44116}} {{HOST_78}} \"GET /self.logs/error.log.2016-05-27.gz HTTP/1.1\" 200 908 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44129}} {{HOST_76}} \"GET /self.logs/access.log.2016-01-17.gz HTTP/1.1\" 200 4357 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44151}} {{HOST_70}} \"GET /self.logs/error.log.2015-05-02.gz HTTP/1.1\" 200 834 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44166}} {{HOST_70}} \"GET /self.logs/error.log.2015-01-20.gz HTTP/1.1\" 200 961 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44187}} {{HOST_73}} \"GET /self.logs/error.log.2015-08-17.gz HTTP/1.1\" 200 1918 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44203}} {{HOST_74}} \"GET /self.logs/access.log.2016-04-11.gz HTTP/1.1\" 200 8778 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44231}} {{HOST_72}} \"GET /self.logs/access.log.2015-09-06.gz HTTP/1.1\" 200 4835 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44244}} {{HOST_75}} \"GET /self.logs/error.log.2015-01-22.gz HTTP/1.1\" 200 651 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44275}} {{HOST_69}} \"GET /self.logs/error.log.2015-02-14.gz HTTP/1.1\" 200 9852 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44276}} {{HOST_75}} \"GET /self.logs/access.log.2015-12-21.gz HTTP/1.1\" 200 10544 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44309}} {{HOST_77}} \"GET /self.logs/error.log.2016-04-16.gz HTTP/1.1\" 200 924 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44316}} {{HOST_75}} \"GET /self.logs/access.log.2015-07-16.gz HTTP/1.1\" 200 7253 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44333}} {{HOST_73}} \"GET /self.logs/error.log.2015-05-11.gz HTTP/1.1\" 200 1103 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44366}} {{HOST_72}} \"GET /self.logs/error.log.2015-08-21.gz HTTP/1.1\" 200 1053 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44380}} {{HOST_70}} \"GET /self.logs/access.log.2015-11-14.gz HTTP/1.1\" 200 5305 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44393}} {{HOST_74}} \"GET /self.logs/error.log.2015-08-06.gz HTTP/1.1\" 200 692 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44409}} {{HOST_69}} \"GET /self.logs/access.log.2015-07-30.gz HTTP/1.1\" 200 4058 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44430}} {{HOST_76}} \"GET /self.logs/?C=D%3BO%3DA HTTP/1.1\" 200 14663 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44462}} {{HOST_88}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 200 933960 \"-\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\""}
+{"line": "{{NOW+44466}} {{HOST_71}} \"GET /self.logs/access.log.2016-04-21.gz HTTP/1.1\" 200 23644 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44470}} {{HOST_77}} \"GET /self.logs/access.log.2016-05-22.gz HTTP/1.1\" 200 11571 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44474}} {{HOST_88}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 200 1279362 \"-\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\""}
+{"line": "{{NOW+44486}} {{HOST_70}} \"GET /self.logs/access.log.2015-09-26.gz HTTP/1.1\" 200 3612 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44508}} {{HOST_70}} \"GET /self.logs/access.log.2015-08-11.gz HTTP/1.1\" 200 5970 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44537}} {{HOST_69}} \"GET /self.logs/access.log.2015-06-15.gz HTTP/1.1\" 200 7949 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44547}} {{HOST_78}} \"GET /auth.log/auth.log.gz HTTP/1.1\" 200 304719 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44560}} {{HOST_73}} \"GET /self.logs/error.log.2016-05-15.gz HTTP/1.1\" 200 522 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44583}} {{HOST_70}} \"GET /self.logs/error.log.2016-04-02.gz HTTP/1.1\" 200 623 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44590}} {{HOST_87}} \"GET /self.logs/access.log.2015-02-14.gz HTTP/1.1\" 200 25834 \"-\" \"Python-urllib/2.7\""}
+{"line": "{{NOW+44606}} {{HOST_77}} \"GET /self.logs/error.log.2015-11-16.gz HTTP/1.1\" 200 598 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44618}} {{HOST_74}} \"GET /self.logs/error.log.2016-04-08.gz HTTP/1.1\" 200 692 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44639}} {{HOST_77}} \"GET /self.logs/error.log.2015-11-10.gz HTTP/1.1\" 200 591 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44651}} {{HOST_71}} \"GET /self.logs/error.log.2015-04-18.gz HTTP/1.1\" 200 1070 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44673}} {{HOST_74}} \"GET /self.logs/access.log.2015-03-07.gz HTTP/1.1\" 200 2711 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44690}} {{HOST_70}} \"GET /self.logs/access.log.2015-07-24.gz HTTP/1.1\" 200 4106 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44709}} {{HOST_78}} \"GET /self.logs/access.log.2015-08-24.gz HTTP/1.1\" 200 22786 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44728}} {{HOST_78}} \"GET /self.logs/access.log.2015-08-13.gz HTTP/1.1\" 200 4622 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44747}} {{HOST_71}} \"GET / HTTP/1.1\" 200 10230 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44765}} {{HOST_78}} \"GET /self.logs/error.log.2015-07-28.gz HTTP/1.1\" 200 652 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44788}} {{HOST_89}} \"GET /robots.txt HTTP/1.1\" 200 334 \"-\" \"Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)\""}
+{"line": "{{NOW+44788}} {{HOST_90}} \"GET /robots.txt HTTP/1.1\" 301 502 \"-\" \"Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)\""}
+{"line": "{{NOW+44789}} {{HOST_70}} \"GET /self.logs/error.log.2015-02-15.gz HTTP/1.1\" 200 5772 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44789}} {{HOST_55}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)\""}
+{"line": "{{NOW+44789}} {{HOST_91}} \"GET / HTTP/1.1\" 301 483 \"-\" \"Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)\""}
+{"line": "{{NOW+44804}} {{HOST_71}} \"GET /self.logs/access.log.2016-05-04.gz HTTP/1.1\" 200 17024 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44818}} {{HOST_73}} \"GET /maccdc2012/ssh.log.gz HTTP/1.1\" 200 182480 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44840}} {{HOST_70}} \"GET /self.logs/error.log.2015-09-17.gz HTTP/1.1\" 200 796 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44856}} {{HOST_71}} \"GET /self.logs/access.log.2016-03-06.gz HTTP/1.1\" 200 7444 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44872}} {{HOST_74}} \"GET /self.logs/error.log.2015-05-20.gz HTTP/1.1\" 200 776 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44890}} {{HOST_70}} \"GET /self.logs/error.log.2016-05-22.gz HTTP/1.1\" 200 682 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44909}} {{HOST_78}} \"GET /self.logs/error.log.2015-06-22.gz HTTP/1.1\" 200 2801 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44929}} {{HOST_69}} \"GET /self.logs/error.log.2016-03-16.gz HTTP/1.1\" 200 795 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44946}} {{HOST_78}} \"GET /self.logs/error.log.2016-04-22.gz HTTP/1.1\" 200 713 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44963}} {{HOST_69}} \"GET /self.logs/access.log.2015-01-31.gz HTTP/1.1\" 200 4200 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+44988}} {{HOST_78}} \"GET /self.logs/error.log.2015-04-05.gz HTTP/1.1\" 200 1012 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45001}} {{HOST_72}} \"GET /self.logs/error.log.2015-01-25.gz HTTP/1.1\" 200 574 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45022}} {{HOST_70}} \"GET /self.logs/access.log.2016-06-01.gz HTTP/1.1\" 200 9916 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45040}} {{HOST_74}} \"GET /self.logs/error.log.2016-05-17.gz HTTP/1.1\" 200 650 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45059}} {{HOST_69}} \"GET /self.logs/error.log.2015-01-18.gz HTTP/1.1\" 200 1222 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45072}} {{HOST_73}} \"GET /self.logs/access.log.2016-04-08.gz HTTP/1.1\" 200 19909 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45091}} {{HOST_77}} \"GET /self.logs/error.log.2015-02-25.gz HTTP/1.1\" 200 989 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45106}} {{HOST_69}} \"GET /self.logs/error.log.2015-07-16.gz HTTP/1.1\" 200 646 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45128}} {{HOST_78}} \"GET /self.logs/error.log.2015-10-13.gz HTTP/1.1\" 200 712 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45147}} {{HOST_75}} \"GET /self.logs/access.log.2015-09-07.gz HTTP/1.1\" 200 4049 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45163}} {{HOST_70}} \"GET /self.logs/access.log.2015-06-02.gz HTTP/1.1\" 200 3760 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45188}} {{HOST_74}} \"GET /self.logs/access.log.2016-03-30.gz HTTP/1.1\" 200 8775 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45200}} {{HOST_75}} \"GET /self.logs/error.log.2016-04-23.gz HTTP/1.1\" 200 605 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45219}} {{HOST_73}} \"GET /self.logs/access.log.2015-04-22.gz HTTP/1.1\" 200 14685 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45241}} {{HOST_78}} \"GET /self.logs/access.log.2016-06-10.gz HTTP/1.1\" 200 16817 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45253}} {{HOST_70}} \"GET /self.logs/error.log.2016-05-23.gz HTTP/1.1\" 200 757 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45273}} {{HOST_77}} \"GET /self.logs/access.log.2015-05-14.gz HTTP/1.1\" 200 6083 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45299}} {{HOST_73}} \"GET /self.logs/error.log.2015-07-29.gz HTTP/1.1\" 200 705 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45307}} {{HOST_76}} \"GET /self.logs/access.log.2015-02-11.gz HTTP/1.1\" 200 4623 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45329}} {{HOST_71}} \"GET /self.logs/error.log.2015-11-29.gz HTTP/1.1\" 200 623 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45347}} {{HOST_75}} \"GET /self.logs/error.log.2015-06-26.gz HTTP/1.1\" 200 763 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45364}} {{HOST_72}} \"GET /self.logs/error.log.2015-03-28.gz HTTP/1.1\" 200 922 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45380}} {{HOST_75}} \"GET /self.logs/error.log.2015-11-05.gz HTTP/1.1\" 200 1076 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45400}} {{HOST_77}} \"GET /self.logs/error.log.2015-05-21.gz HTTP/1.1\" 200 787 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45419}} {{HOST_77}} \"GET /self.logs/error.log.2015-02-26.gz HTTP/1.1\" 200 1013 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45433}} {{HOST_76}} \"GET /self.logs/access.log.2015-05-06.gz HTTP/1.1\" 200 6588 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45457}} {{HOST_74}} \"GET /self.logs/access.log.2015-06-09.gz HTTP/1.1\" 200 8175 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45470}} {{HOST_71}} \"GET /self.logs/error.log.2015-06-06.gz HTTP/1.1\" 200 719 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45489}} {{HOST_71}} \"GET /self.logs/error.log.2015-06-17.gz HTTP/1.1\" 200 1115 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45506}} {{HOST_76}} \"GET /self.logs/error.log.2015-07-01.gz HTTP/1.1\" 200 1008 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45529}} {{HOST_72}} \"GET /self.logs/access.log.2016-04-10.gz HTTP/1.1\" 200 8376 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45539}} {{HOST_69}} \"GET /self.logs/access.log.2016-04-22.gz HTTP/1.1\" 200 7997 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45567}} {{HOST_75}} \"GET /self.logs/access.log.2015-10-31.gz HTTP/1.1\" 200 7220 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45579}} {{HOST_76}} \"GET /self.logs/access.log.2016-02-08.gz HTTP/1.1\" 200 6677 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45594}} {{HOST_70}} \"GET /self.logs/access.log.2015-07-12.gz HTTP/1.1\" 200 4540 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45615}} {{HOST_77}} \"GET /self.logs/access.log.2015-09-14.gz HTTP/1.1\" 200 5491 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45633}} {{HOST_74}} \"GET /self.logs/access.log.2016-04-25.gz HTTP/1.1\" 200 9383 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45654}} {{HOST_78}} \"GET /self.logs/access.log.2015-10-07.gz HTTP/1.1\" 200 7000 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45669}} {{HOST_76}} \"GET /self.logs/access.log.2015-12-22.gz HTTP/1.1\" 200 6223 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45689}} {{HOST_70}} \"GET /self.logs/error.log.2016-03-20.gz HTTP/1.1\" 200 854 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45704}} {{HOST_69}} \"GET /self.logs/error.log.2015-09-11.gz HTTP/1.1\" 200 666 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45722}} {{HOST_77}} \"GET /self.logs/access.log.2016-02-07.gz HTTP/1.1\" 200 9101 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45744}} {{HOST_70}} \"GET /self.logs/access.log.2015-07-10.gz HTTP/1.1\" 200 3969 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45758}} {{HOST_72}} \"GET /self.logs/error.log.2016-05-13.gz HTTP/1.1\" 200 1038 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45778}} {{HOST_71}} \"GET /self.logs/access.log.2015-09-09.gz HTTP/1.1\" 200 4674 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45797}} {{HOST_75}} \"GET /self.logs/access.log.2015-09-10.gz HTTP/1.1\" 200 6075 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45815}} {{HOST_70}} \"GET /self.logs/access.log.2015-12-07.gz HTTP/1.1\" 200 6438 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45830}} {{HOST_70}} \"GET /self.logs/access.log.2016-02-03.gz HTTP/1.1\" 200 7249 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45853}} {{HOST_70}} \"GET /self.logs/error.log.2015-02-24.gz HTTP/1.1\" 200 1666 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45867}} {{HOST_70}} \"GET /self.logs/access.log.2015-03-18.gz HTTP/1.1\" 200 9455 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45886}} {{HOST_74}} \"GET /maccdc2012/files.log.gz HTTP/1.1\" 200 306117 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45907}} {{HOST_71}} \"GET /self.logs/access.log.2016-06-07.gz HTTP/1.1\" 200 9140 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45922}} {{HOST_73}} \"GET /self.logs/access.log.2015-01-20.gz HTTP/1.1\" 200 3633 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45940}} {{HOST_77}} \"GET /self.logs/access.log.2016-02-02.gz HTTP/1.1\" 200 7973 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45962}} {{HOST_75}} \"GET /self.logs/error.log.2015-04-07.gz HTTP/1.1\" 200 663 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45975}} {{HOST_75}} \"GET /self.logs/access.log.2015-11-27.gz HTTP/1.1\" 200 5589 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+45995}} {{HOST_74}} \"GET /self.logs/error.log.2016-02-17.gz HTTP/1.1\" 200 831 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+46014}} {{HOST_75}} \"GET /self.logs/access.log.2015-06-01.gz HTTP/1.1\" 200 4327 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+46031}} {{HOST_70}} \"GET /self.logs/error.log.2015-12-18.gz HTTP/1.1\" 200 521 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+46050}} {{HOST_73}} \"GET /self.logs/access.log.2015-11-09.gz HTTP/1.1\" 200 6120 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+46067}} {{HOST_76}} \"GET /self.logs/access.log.2015-12-12.gz HTTP/1.1\" 200 5412 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+46087}} {{HOST_74}} \"GET /self.logs/error.log.2015-12-13.gz HTTP/1.1\" 200 629 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+46102}} {{HOST_78}} \"GET /self.logs/error.log.2015-03-06.gz HTTP/1.1\" 200 798 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+46120}} {{HOST_69}} \"GET /self.logs/access.log.2016-03-21.gz HTTP/1.1\" 200 6585 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+46137}} {{HOST_69}} \"GET /self.logs/error.log.2016-01-02.gz HTTP/1.1\" 200 859 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+46161}} {{HOST_73}} \"GET /self.logs/access.log.2015-09-08.gz HTTP/1.1\" 200 3824 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+46180}} {{HOST_76}} \"GET /self.logs/error.log.2015-11-11.gz HTTP/1.1\" 200 581 \"-\" \"Mozilla/5.0 (compatible; SemrushBot/1.1~bl; +http://www.semrush.com/bot.html)\""}
+{"line": "{{NOW+46358}} {{HOST_92}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon\""}
+{"line": "{{NOW+46358}} {{HOST_93}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon\""}
+{"line": "{{NOW+48534}} {{HOST_94}} \"GET /honeypot/Honeypot%20-%20Howto%20-%20BSides%20Austin.pdf HTTP/1.1\" 200 1614760 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36\""}
+{"line": "{{NOW+48697}} {{HOST_66}} \"GET /honeypot/BSidesDFW%20-%202014.ipynb HTTP/1.1\" 200 930836 \"-\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\""}
+{"line": "{{NOW+48897}} {{HOST_95}} \"GET /honeypot/BSidesDFW%20-%202014.ipynb HTTP/1.0\" 200 930799 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5\""}
+{"line": "{{NOW+49317}} {{HOST_96}} \"GET / HTTP/1.1\" 304 189 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+49664}} {{HOST_97}} \"GET / HTTP/1.1\" 200 10230 \"http://yandex.ru/clck/jsredir?from=yandex.ru%3Bsearch%3Bweb%3B%3B&text=&etext=1288.NBl4sOXAEbIUgLIEAD-2vJmjmujGd7b8rHMEKfo-XmYetsmp0Apsnw_SX-2s1EzY.9034ce1a1ab572282c62d2a7f2147e7980ea6937&uuid=&state=_BLhILn4SxNIvvL0W45KSic66uCIg23qh8iRG98qeIXmeppkgUc0YMIVJNtoWDTa6Ctl47TPu5I&data=UlNrNmk5WktYejR0eWJFYk1LdmtxdFVvX2JPZzkyaEU2WFNsdVNGUmVZbU91UHlqSWwyc085dGI3RVc2cExJRlBkdmlZQW04dFpJYjhnbFNvMml6M2pQYllDZXJzT1NlS0pud0oyRFNGOTg&b64e=2&sign=8da92f45df9850d19321baf9c1f69303&keyno=0&cst=AiuY0DBWFJ7IXge4WdYJQSaYtyyri96F011rtQj24h4mDVb7QuUIAcUiRm6Bme04A-FihIdn8DAJsI4fiZ7zx_htPMKwbmbGv20D-kk6vkw24hsuYKOGox5GaW_paneOxVoMfWRdf4-sZW8QdUSlb3Uo3_UkRFlV&ref=orjY4mGPRjk5boDnW0uvlrrd71vZw9kp5uQozpMtKCWQWxj6qvocP6OaDFVhXIsxtn7-X4s3ujTcOYDyoGHbNXho3LLcijoTy_gaZwd5KfE2IFikqgJ73Q&l10n=ru&cts=1483306295161&mc=5.09775199506\" \"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)\""}
+{"line": "{{NOW+49678}} {{HOST_97}} \"GET /twitter-icon.png HTTP/1.1\" 200 27751 \"http://www.secrepo.com/\" \"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)\""}
+{"line": "{{NOW+49678}} {{HOST_97}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7391 \"http://www.secrepo.com/\" \"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)\""}
+{"line": "{{NOW+49888}} {{HOST_98}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)\""}
+{"line": "{{NOW+50040}} {{HOST_99}} \"GET /honeypot/BSidesDFW%20-%202014.ipynb HTTP/1.1\" 200 930799 \"http://yandex.ru/clck/jsredir?from=yandex.ru%3Bsearch%3Bweb%3B%3B&text=&etext=1288.a-H0Kiesd_P5yQro-5-fqOIGKuB1m_x4JiA7DpSiv4az1oVUz_YB-kyspgACV-MK.69cbe4856385db5de75d09740f611baa5058cc22&uuid=&state=_BLhILn4SxNIvvL0W45KSic66uCIg23qh8iRG98qeIXmeppkgUc0YGv9iZwKiy-E54GYiollMFA&data=UlNrNmk5WktYejR0eWJFYk1LdmtxdFVvX2JPZzkyaEU2WFNsdVNGUmVZbHU3ZjQwYnJsWFQzaTk3eklSTnotZ1h4SW1DUmpSY1JVWlAxT212aTdGbmljek9uMzIxTElNRnUyZGR2aTVBa0lyUm5FNHExdmFTaDlqR2ZDcXRJekZsX2xsMktyOF9SdzJ3dHpIVUw4SjFDQWJONjdwYkpiYw&b64e=2&sign=013c20482d8b5e39c54ebb056a326c04&keyno=0&cst=AiuY0DBWFJ7IXge4WdYJQULnoVAFacUfb9SjGqaoO73Tvp02knzfyopSIIccX5h0gOqcrruW96Jc344nMBeiFo3dDrMsmLPsPlD2SviYPt04MoZjAIeNzAjvB_OH-rRBF0tunEKHnjUZVvXJ8nxrbv-XdyXcFEvA&ref=orjY4mGPRjk5boDnW0uvlrrd71vZw9kp5uQozpMtKCWQWxj6qvocP0tB6MTjWRfHaFuesz-azjIoAFOPJjgQShj8K-9H7L59I_YIptngWbfOErWS0GuczQ&l10n=ru&cts=1483305291888&mc=6.68978700612\" \"Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)\""}
+{"line": "{{NOW+50068}} {{HOST_100}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon\""}
+{"line": "{{NOW+50068}} {{HOST_101}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon\""}
+{"line": "{{NOW+51077}} {{HOST_102}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+51081}} {{HOST_103}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7372 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b\""}
+{"line": "{{NOW+51087}} {{HOST_103}} \"GET /twitter-icon.png HTTP/1.1\" 200 27732 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b\""}
+{"line": "{{NOW+51233}} {{HOST_104}} \"GET /robots.txt HTTP/1.1\" 200 289 \"-\" \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+51787}} {{HOST_80}} \"GET /robots.txt HTTP/1.1\" 200 297 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36\""}
+{"line": "{{NOW+52954}} {{HOST_105}} \"GET / HTTP/1.1\" 304 152 \"-\" \"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)\""}
+{"line": "{{NOW+53140}} {{HOST_106}} \"GET /favicon.ico HTTP/1.1\" 200 268 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0\""}
+{"line": "{{NOW+53774}} {{HOST_107}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+53774}} {{HOST_107}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7427 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+53774}} {{HOST_107}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+53774}} {{HOST_107}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+54068}} {{HOST_108}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+54073}} {{HOST_108}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+54078}} {{HOST_108}} \"GET / HTTP/1.1\" 200 34374 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+54350}} {{HOST_104}} \"GET /self.logs/access.log.2016-11-30.gz HTTP/1.1\" 200 12106 \"-\" \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+55715}} {{HOST_27}} \"GET /maccdc2012/ssh.log.gz HTTP/1.1\" 200 182461 \"-\" \"Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)\""}
+{"line": "{{NOW+55847}} {{HOST_30}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A456 Safari/602.1\""}
+{"line": "{{NOW+55847}} {{HOST_30}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.se/\" \"Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A456 Safari/602.1\""}
+{"line": "{{NOW+55848}} {{HOST_30}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A456 Safari/602.1\""}
+{"line": "{{NOW+56151}} {{HOST_30}} \"GET /apple-touch-icon.png HTTP/1.1\" 404 339 \"-\" \"MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0\""}
+{"line": "{{NOW+56151}} {{HOST_30}} \"GET /apple-touch-icon-152x152.png HTTP/1.1\" 404 339 \"-\" \"MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0\""}
+{"line": "{{NOW+56151}} {{HOST_30}} \"GET /apple-touch-icon-152x152-precomposed.png HTTP/1.1\" 404 340 \"-\" \"MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0\""}
+{"line": "{{NOW+56152}} {{HOST_30}} \"GET /apple-touch-icon.png HTTP/1.1\" 404 339 \"-\" \"MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0\""}
+{"line": "{{NOW+56153}} {{HOST_30}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A456 Safari/602.1\""}
+{"line": "{{NOW+56154}} {{HOST_30}} \"GET /apple-touch-icon.png HTTP/1.1\" 404 339 \"-\" \"MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0\""}
+{"line": "{{NOW+56154}} {{HOST_30}} \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 339 \"-\" \"MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0\""}
+{"line": "{{NOW+56154}} {{HOST_30}} \"GET /apple-touch-icon-152x152.png HTTP/1.1\" 404 339 \"-\" \"MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0\""}
+{"line": "{{NOW+56154}} {{HOST_30}} \"GET /apple-touch-icon-152x152-precomposed.png HTTP/1.1\" 404 340 \"-\" \"MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0\""}
+{"line": "{{NOW+56155}} {{HOST_30}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"-\" \"MobileSafari/602.1 CFNetwork/808.0.2 Darwin/16.0.0\""}
+{"line": "{{NOW+56882}} {{HOST_109}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 200 1279418 \"-\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+57936}} {{HOST_110}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9\""}
+{"line": "{{NOW+57937}} {{HOST_110}} \"GET /apple-touch-icon.png HTTP/1.1\" 404 339 \"-\" \"com.apple.WebKit.WebContent/10600.8.9 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)\""}
+{"line": "{{NOW+57937}} {{HOST_110}} \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 340 \"-\" \"com.apple.WebKit.WebContent/10600.8.9 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)\""}
+{"line": "{{NOW+57937}} {{HOST_110}} \"GET / HTTP/1.1\" 200 10266 \"-\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B410 Safari/600.1.4\""}
+{"line": "{{NOW+57937}} {{HOST_110}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9\""}
+{"line": "{{NOW+59663}} {{HOST_111}} \"GET /honeypot/Honeypot%20-%20Howto%20-%20BSides%20Austin.pdf HTTP/1.1\" 200 935860 \"-\" \"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)\""}
+{"line": "{{NOW+60720}} {{HOST_112}} \"GET /honeypot/Honeypot%20-%20Howto%20-%20BSides%20Austin.pdf HTTP/1.1\" 200 2928460 \"-\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\""}
+{"line": "{{NOW+60931}} {{HOST_113}} \"GET / HTTP/1.1\" 200 34363 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+60932}} {{HOST_114}} \"GET /feed HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+60937}} {{HOST_115}} \"GET /rss/ HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+60937}} {{HOST_116}} \"GET /feed.xml HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+60938}} {{HOST_117}} \"GET /atom HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+60939}} {{HOST_118}} \"GET /atom.xml HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+60940}} {{HOST_119}} \"GET / HTTP/1.1\" 200 34363 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+60941}} {{HOST_120}} \"GET /feed HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+60942}} {{HOST_121}} \"GET /rss/ HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+60942}} {{HOST_122}} \"GET /feed.xml HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+60943}} {{HOST_113}} \"GET /atom HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+60944}} {{HOST_114}} \"GET /atom.xml HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0\""}
+{"line": "{{NOW+61411}} {{HOST_123}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.ru\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:45.9) Gecko/20100101 Goanna/3.0 Firefox/45.9 PaleMoon/27.0.3\""}
+{"line": "{{NOW+61412}} {{HOST_123}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:45.9) Gecko/20100101 Goanna/3.0 Firefox/45.9 PaleMoon/27.0.3\""}
+{"line": "{{NOW+61412}} {{HOST_123}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7427 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:45.9) Gecko/20100101 Goanna/3.0 Firefox/45.9 PaleMoon/27.0.3\""}
+{"line": "{{NOW+61615}} {{HOST_124}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0\""}
+{"line": "{{NOW+61615}} {{HOST_124}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0\""}
+{"line": "{{NOW+61615}} {{HOST_124}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0\""}
+{"line": "{{NOW+61615}} {{HOST_124}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0\""}
+{"line": "{{NOW+61615}} {{HOST_124}} \"GET / HTTP/1.1\" 301 483 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0\""}
+{"line": "{{NOW+62066}} {{HOST_109}} \"GET /robots.txt HTTP/1.1\" 301 518 \"-\" \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+62067}} {{HOST_109}} \"GET /robots.txt HTTP/1.1\" 200 288 \"-\" \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+62071}} {{HOST_109}} \"GET /honeypot/honeypot%20-%20howto.pdf HTTP/1.1\" 301 531 \"-\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+62076}} {{HOST_109}} \"GET /honeypot/honeypot%20-%20howto.pdf HTTP/1.1\" 404 340 \"-\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+62580}} {{HOST_102}} \"GET / HTTP/1.1\" 301 483 \"-\" \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+62648}} {{HOST_101}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon\""}
+{"line": "{{NOW+62648}} {{HOST_125}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon\""}
+{"line": "{{NOW+62786}} {{HOST_102}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+63349}} {{HOST_126}} \"GET /robots.txt HTTP/1.1\" 200 334 \"-\" \"Mozilla/5.0 (compatible; SeznamBot/3.2; +http://napoveda.seznam.cz/en/seznambot-intro/)\""}
+{"line": "{{NOW+63351}} {{HOST_126}} \"GET /self.logs/?C=M;O=A HTTP/1.1\" 200 15036 \"-\" \"Mozilla/5.0 (compatible; SeznamBot/3.2; +http://napoveda.seznam.cz/en/seznambot-intro/)\""}
+{"line": "{{NOW+63457}} {{HOST_127}} \"GET /robots.txt HTTP/1.0\" 200 252 \"-\" \"Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)\""}
+{"line": "{{NOW+63459}} {{HOST_127}} \"GET /honeypot//%22http://glastopf.org//%22 HTTP/1.0\" 404 284 \"-\" \"Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)\""}
+{"line": "{{NOW+63460}} {{HOST_127}} \"GET /honeypot//%22http://www.maxmind.com/%22 HTTP/1.0\" 404 303 \"-\" \"Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)\""}
+{"line": "{{NOW+63463}} {{HOST_127}} \"GET /honeypot//%22https://twitter.com/sooshie/%22 HTTP/1.0\" 404 303 \"-\" \"Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)\""}
+{"line": "{{NOW+63465}} {{HOST_127}} \"GET /honeypot//%22https://twitter.com/theroxyd/%22 HTTP/1.0\" 404 303 \"-\" \"Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)\""}
+{"line": "{{NOW+63682}} {{HOST_128}} \"GET /honeypot/Honeypot%20-%20Howto.pdf HTTP/1.1\" 200 778180 \"-\" \"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)\""}
+{"line": "{{NOW+64134}} {{HOST_27}} \"GET /self.logs/error.log.2015-08-06.gz HTTP/1.1\" 200 673 \"-\" \"Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)\""}
+{"line": "{{NOW+65406}} {{HOST_129}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+65411}} {{HOST_129}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+65416}} {{HOST_129}} \"GET / HTTP/1.1\" 200 34374 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+66239}} {{HOST_130}} \"GET /self.logs/access.log.2016-12-26.gz HTTP/1.1\" 200 8898 \"-\" \"python-requests/2.12.1\""}
+{"line": "{{NOW+66240}} {{HOST_130}} \"GET /self.logs/access.log.2016-12-30.gz HTTP/1.1\" 404 340 \"-\" \"python-requests/2.12.1\""}
+{"line": "{{NOW+66240}} {{HOST_130}} \"GET /self.logs/access.log.2016-12-29.gz HTTP/1.1\" 200 8909 \"-\" \"python-requests/2.12.1\""}
+{"line": "{{NOW+66240}} {{HOST_130}} \"GET /self.logs/access.log.2016-12-28.gz HTTP/1.1\" 200 28379 \"-\" \"python-requests/2.12.1\""}
+{"line": "{{NOW+66240}} {{HOST_130}} \"GET /self.logs/access.log.2016-12-27.gz HTTP/1.1\" 200 30979 \"-\" \"python-requests/2.12.1\""}
+{"line": "{{NOW+66241}} {{HOST_130}} \"GET /self.logs/access.log.2017-01-01.gz HTTP/1.1\" 404 340 \"-\" \"python-requests/2.12.1\""}
+{"line": "{{NOW+66241}} {{HOST_130}} \"GET /self.logs/access.log.2016-12-31.gz HTTP/1.1\" 404 340 \"-\" \"python-requests/2.12.1\""}
+{"line": "{{NOW+66271}} {{HOST_131}} \"GET /robots.txt HTTP/1.1\" 200 297 \"-\" \"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)\""}
+{"line": "{{NOW+71194}} {{HOST_132}} \"GET / HTTP/1.1\" 301 446 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36\""}
+{"line": "{{NOW+71209}} {{HOST_133}} \"GET / HTTP/1.1\" 200 10230 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36\""}
+{"line": "{{NOW+72299}} {{HOST_134}} \"GET /honeypot/BSidesDFW%20-%202014.ipynb HTTP/1.1\" 200 455928 \"-\" \"Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko\""}
+{"line": "{{NOW+72687}} {{HOST_135}} \"GET /maccdc2012/conn.log.gz HTTP/1.1\" 200 436252007 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85\""}
+{"line": "{{NOW+72687}} {{HOST_135}} \"GET /maccdc2012/conn.log.gz HTTP/1.1\" 200 551041579 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85\""}
+{"line": "{{NOW+72687}} {{HOST_135}} \"GET /maccdc2012/conn.log.gz HTTP/1.1\" 200 551041579 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85\""}
+{"line": "{{NOW+72687}} {{HOST_135}} \"GET /maccdc2012/conn.log.gz HTTP/1.1\" 200 551041579 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85\""}
+{"line": "{{NOW+72687}} {{HOST_135}} \"GET /maccdc2012/conn.log.gz HTTP/1.1\" 200 551041579 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36 OPR/42.0.2393.85\""}
+{"line": "{{NOW+73059}} {{HOST_136}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+73065}} {{HOST_136}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+73070}} {{HOST_136}} \"GET / HTTP/1.1\" 200 34374 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+74318}} {{HOST_137}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+74318}} {{HOST_137}} \"GET / HTTP/1.1\" 200 10267 \"http://www.hakawati.co.kr/416\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+74319}} {{HOST_137}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+74319}} {{HOST_137}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+78886}} {{HOST_138}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.co.in/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+78887}} {{HOST_138}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+78887}} {{HOST_138}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+78888}} {{HOST_138}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+79629}} {{HOST_139}} \"GET / HTTP/1.1\" 301 483 \"-\" \"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+79630}} {{HOST_139}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+79631}} {{HOST_139}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+79631}} {{HOST_139}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+79631}} {{HOST_139}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+79796}} {{HOST_139}} \"GET /pe_static/zeus.zip HTTP/1.1\" 200 4493880 \"-\" \"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80283}} {{HOST_140}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80285}} {{HOST_140}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80285}} {{HOST_140}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80285}} {{HOST_140}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80287}} {{HOST_140}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80326}} {{HOST_140}} \"GET /maccdc2012/smtp.log.gz HTTP/1.1\" 200 6846 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80412}} {{HOST_140}} \"GET /twitter-icon.png HTTP/1.1\" 304 165 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80412}} {{HOST_140}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.com/\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80413}} {{HOST_140}} \"GET /GitHub-Mark.png HTTP/1.1\" 304 166 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80414}} {{HOST_140}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 304 164 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80422}} {{HOST_140}} \"GET /maccdc2012/smtp.log.gz HTTP/1.1\" 304 189 \"http://www.secrepo.com/maccdc2012/\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+80894}} {{HOST_141}} \"GET /robots.txt HTTP/1.1\" 200 334 \"http://www.secrepo.com/robots.txt\" \"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0); 360Spider\""}
+{"line": "{{NOW+80894}} {{HOST_141}} \"GET / HTTP/1.1\" 200 10267 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 QIHU 360SE; 360Spider\""}
+{"line": "{{NOW+81384}} {{HOST_142}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+81385}} {{HOST_142}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+81385}} {{HOST_142}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+81387}} {{HOST_142}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 590 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36\""}
+{"line": "{{NOW+82254}} {{HOST_143}} \"GET / HTTP/1.1\" 200 10211 \"-\" \"Twitterbot/1.0\""}
+{"line": "{{NOW+82254}} {{HOST_143}} \"GET /robots.txt HTTP/1.1\" 200 233 \"-\" \"Twitterbot/1.0\""}
+{"line": "{{NOW+83579}} {{HOST_144}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 304 165 \"-\" \"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+84339}} {{HOST_109}} \"GET /self.logs/access.log.2015-06-30.gz HTTP/1.1\" 200 5358 \"-\" \"Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\""}
+{"line": "{{NOW+84547}} {{HOST_145}} \"HEAD / HTTP/1.1\" 200 284 \"-\" \"Go-http-client/1.1\""}
+{"line": "{{NOW+84547}} {{HOST_145}} \"HEAD / HTTP/1.1\" 301 209 \"-\" \"Go-http-client/1.1\""}
+{"line": "{{NOW+84851}} {{HOST_146}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+84851}} {{HOST_146}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"-\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+84851}} {{HOST_146}} \"GET / HTTP/1.1\" 200 10267 \"http://www.mlsecproject.org/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+84852}} {{HOST_146}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+84888}} {{HOST_146}} \"GET /self.logs/ HTTP/1.1\" 200 14700 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+84889}} {{HOST_146}} \"GET /favicon.ico HTTP/1.1\" 200 267 \"-\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+84902}} {{HOST_146}} \"GET /self.logs/access.log.2015-01-17.gz HTTP/1.1\" 200 3597 \"http://www.secrepo.com/self.logs/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+84915}} {{HOST_146}} \"GET /self.logs/access.log.2015-01-17.gz HTTP/1.1\" 200 3597 \"http://www.secrepo.com/self.logs/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+85043}} {{HOST_5}} \"GET / HTTP/1.1\" 200 10267 \"https://www.google.co.kr/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+85044}} {{HOST_5}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+85044}} {{HOST_5}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+85044}} {{HOST_5}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+85112}} {{HOST_5}} \"GET /maccdc2012/weird.log.gz HTTP/1.1\" 200 1242777 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+85139}} {{HOST_146}} \"GET /Security-Data-Analysis/Lab_1/conn.log.zip HTTP/1.1\" 200 549098528 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+85140}} {{HOST_146}} \"GET /Security-Data-Analysis/Lab_1/conn.log.zip HTTP/1.1\" 200 4557648 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+85195}} {{HOST_146}} \"GET /self.logs/ HTTP/1.1\" 200 14700 \"http://www.secrepo.com/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0\""}
+{"line": "{{NOW+85213}} {{HOST_5}} \"GET /maccdc2012/http.log.gz HTTP/1.1\" 200 54258816 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+85226}} {{HOST_147}} \"GET / HTTP/1.1\" 200 34374 \"-\" \"facebookexternalhit/1.1;kakaotalk-scrap/1.0;\""}
+{"line": "{{NOW+85227}} {{HOST_148}} \"GET / HTTP/1.1\" 200 34374 \"-\" \"facebookexternalhit/1.1;kakaotalk-scrap/1.0;\""}
+{"line": "{{NOW+85266}} {{HOST_5}} \"GET / HTTP/1.1\" 200 10267 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+85267}} {{HOST_5}} \"GET /GitHub-Mark.png HTTP/1.1\" 200 7428 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+85267}} {{HOST_5}} \"GET /twitter-icon.png HTTP/1.1\" 200 27787 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+85268}} {{HOST_5}} \"GET /bootstrap/img/favicon.ico HTTP/1.1\" 200 589 \"http://www.secrepo.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36\""}
+{"line": "{{NOW+85708}} {{HOST_149}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+85713}} {{HOST_149}} \"GET /wp-login.php HTTP/1.1\" 404 295 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
+{"line": "{{NOW+85719}} {{HOST_149}} \"GET / HTTP/1.1\" 200 34374 \"-\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1\""}
