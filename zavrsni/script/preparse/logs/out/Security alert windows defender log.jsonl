@@ -1,2 +1,0 @@
-{"line": "{{EVENT_ID}} Scan started. Scan type: Quick Scan. Scan started at {{NOW+0}}."}
-{"line": "{{EVENT_ID}} Malware scan initiated by {{USER_1}} at {{NOW+238}}. Scan type: Full Scan."}

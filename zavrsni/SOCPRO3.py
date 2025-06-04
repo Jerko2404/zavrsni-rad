@@ -12,31 +12,33 @@ config = {
     "splunkUF": False,
     "protocol": "tcp",
     "running": False,
-    "brute_force_connection": False,
-    "createAndexecuteMalFile": False,
-    "connection": False,
-    "WinDefenderLogs": False,
-    "EmailLogs": False,
-    "FireWall_Logs": False,
-    "WebserverLogs": False,
-    "PrivilageEscalation": False,
+    "Brute_force_login": False,
+    "Execute_and_create_mal": False,
+    "Connection": False,
+    "Win_def": False,
+    "Email": False,
+    "FireWall": False,
+    "Web_server": False,
+    "Privilege_escalation": False,
     "DNS_query": False,
+    "Authentication": False,
     "malicious_ip": "123.123.123.123",
     "malicious_user": "user01",
-    "noise": False,
+    "Noise": False,
 }
 
 LogsDict = {
-    "brute_force_connection": "Logovi_za_prikaz/LoginLogs.txt",
-    "createAndexecuteMalFile": "Logovi_za_prikaz/EventLog kreiranja i executeanja file-a.txt",
-    "connection": "Logovi_za_prikaz/Connection Logs.txt",
-    "WinDefenderLogs": "Logovi_za_prikaz/Security alert windows defender log.txt",
-    "EmailLogs": "Drugi_napad_logovi/emaillogs.txt",
-    "FireWall_Logs": "Drugi_napad_logovi/firewall log.txt",
-    "WebserverLogs": "Drugi_napad_logovi/webserverlogs.txt",
-    "PrivilageEscalation": "Drugi_napad_logovi/privilageescalation logs.txt",
-    "DNS_query": "Drugi_napad_logovi/DNS query logs.txt",
-    "noise_logs": "Logovi_za_prikaz/NoiseLogs.txt",
+    "Brute_force_login": "Logovi_za_prikaz/Login_logs.txt",
+    "Execute_and_create_mal": "Logovi_za_prikaz/Eventlog_exe_create_logs.txt",
+    "Connection": "Logovi_za_prikaz/Connection_logs.txt",
+    "Win_def": "Logovi_za_prikaz/Security_alert_win_def_logs.txt",
+    "Email": "Drugi_napad_logovi/Email_logs.txt",
+    "FireWall": "Drugi_napad_logovi/Firewall_logs.txt",
+    "Web_server": "Drugi_napad_logovi/Web_server_logs.txt",
+    "Privilege_escalation": "Drugi_napad_logovi/Privilege_escalation_logs.txt",
+    "DNS_query": "Drugi_napad_logovi/DNS_query_logs.txt",
+    "Noise": "Logovi_za_prikaz/Noise_logs.txt",
+    "Authentication": "Drugi_napad_logovi/Authentication_logs.txt",
 }
 
 # Lock for thread-safe configuration updates
@@ -57,7 +59,7 @@ def send_noise_logs():
     with config_lock:
         splunk_host = config["splunk_host"]
         udp_port = config["udp_port"]
-        noise_log_file = LogsDict["noise_logs"]
+        noise_log_file = LogsDict["Noise"]
 
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -93,7 +95,7 @@ def send_logs_to_splunk():
         elif splunkUF:
             with open("/Logovi_za_prikaz/splunkUF.txt", "w") as file:
                 for key in LogsDict:
-                    if key == "noise_logs":  # Skip noise logs here, handled separately
+                    if key == "Noise":  # Skip noise logs here, handled separately
                         continue
                     with config_lock:
                         if config.get(key, False):
@@ -106,7 +108,7 @@ def send_logs_to_splunk():
                 file.close()
         if not splunkUF:
             for key in LogsDict:
-                if key == "noise_logs":  # Skip noise logs here, handled separately
+                if key == "Noise":  # Skip noise logs here, handled separately
                     continue
                 with config_lock:
                     if config.get(key, False):
@@ -150,7 +152,7 @@ def process_command(command):
             if not config["running"]:
                 config["running"] = True
                 threading.Thread(target=send_logs_to_splunk, daemon=True).start()
-                if config["noise"]:  # Start noise logs if enabled
+                if config["Noise"]:  # Start noise logs if enabled
                     threading.Thread(target=send_noise_logs, daemon=True).start()
                 print("Log sending started.")
             else:
