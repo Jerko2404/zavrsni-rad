@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   splunk-enterprise:
     image: splunk/splunk:latest
@@ -13,7 +15,7 @@ services:
       - "1514:1514/udp"
     volumes:
       - splunk_data:/opt/splunk/var
-      - ./splunk_enterprise_config:/opt/splunk/etc/system/local
+      - ./inputs.conf:/opt/splunk/etc/system/local/inputs.conf
 
   splunk-uf:
     image: splunk/universalforwarder:latest
@@ -24,26 +26,54 @@ services:
       - SPLUNK_PASSWORD=Mojasifra123!
       - SPLUNK_SERVER=splunk-enterprise:9997
     volumes:
-      - ./Logovi_za_prikaz:/Logovi_za_prikaz
-      - ./Drugi_napad_logovi:/Drugi_napad_logovi
+      - ./splunkuf:/splunkuf               # shared UF‐file directory
       - ./splunk_config:/opt/splunkforwarder/etc/system/local
     depends_on:
       - splunk-enterprise
 
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=admin
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
   parser-app:
-    image: python:3.13.3-slim-bookworm
+    build: ./parser_app
     container_name: parser-app
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_QUEUE=log_queue
+      - RABBITMQ_USER=admin
+      - RABBITMQ_PASS=admin
     volumes:
-      - ./SOCPRO3.py:/SOCPRO3.py
-      - ./Logovi_za_prikaz:/Logovi_za_prikaz
-      - ./Drugi_napad_logovi:/Drugi_napad_logovi
-    entrypoint: [ "python", "/SOCPRO3.py" ]
+      - ./Logovi:/Logovi
+    depends_on:
+      - rabbitmq
     stdin_open: true
     tty: true
+
+  log-sender:
+    build: ./log_sender
+    container_name: log-sender
     environment:
-      - PYTHONUNBUFFERED=1
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_QUEUE=log_queue
+      - RABBITMQ_USER=admin
+      - RABBITMQ_PASS=admin
+      - DEST_HOST=splunk-enterprise
+      - UDP_PORT=1514
+      - TCP_PORT=15140
+      - UF_PATH=/splunkuf/splunkUF.txt
+    volumes:
+      - ./splunkuf:/splunkuf               # shared UF‐file directory
     depends_on:
-      - splunk-uf
+      - rabbitmq
 
 volumes:
   splunk_data:
