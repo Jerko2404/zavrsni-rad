@@ -13,7 +13,6 @@ __pycache__/
 **/__pycache__/
 **/*.pyc
 logs/
-Placeholder/logs/
 
 
 # Splunk config
