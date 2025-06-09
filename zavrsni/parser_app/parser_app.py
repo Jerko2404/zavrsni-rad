@@ -11,7 +11,7 @@ from pathlib import Path
 
 import pika
 
-# ───────────── constants & attack-ordering ─────────────────────────────────────────
+# Const
 LOGS_DICT = {
     "Brute_force_login": "Logovi/Prvi/Login_logs_placeholder.json",
     "Execute_and_create_mal": "Logovi/Prvi/Eventlog_exe_create_logs_placeholder.json",
@@ -26,6 +26,7 @@ LOGS_DICT = {
     "Noise": "Logovi/Prvi/Noise_logs_placeholder.json",
 }
 
+# Log priority order - change if needed
 CATEGORY_ORDER = [
     "Brute_force_login",
     "Execute_and_create_mal",
@@ -51,7 +52,7 @@ PRIVATE_NETS = [
 DEFAULT_PORT_RANGE = (1024, 65000)
 DEFAULT_PID_RANGE = (1000, 65000)
 
-# ───────────── global configuration ───────────────────────────────────────────────
+# Config
 conf_lock = threading.Lock()
 conf = {
     # RabbitMQ – overload via docker-compose env
@@ -77,7 +78,7 @@ for cat in LOGS_DICT:
     conf[cat] = False
 
 
-# ───────────── placeholder‐generation helpers ─────────────────────────────────────
+# Placeholder generation functions
 def gen_ip():
     net = random.choice(PRIVATE_NETS)
     addr = net.network_address + random.randint(1, net.num_addresses - 2)
@@ -102,7 +103,7 @@ def ensure_pool(pool_name, idx, generator):
 boot_monotonic = time.monotonic()
 
 
-# ───────────── token replacement ───────────────────
+# Token replacement
 def replace_tokens(line):
 
     def repl(match):
@@ -147,7 +148,7 @@ def replace_tokens(line):
     return PLACE_RE.sub(repl, line)
 
 
-# ───────────── rabbitmq setup ───────────────────────────────────────────────────
+# Rabbitmq setup
 def open_channel():
     creds = pika.PlainCredentials(conf["rabbit_user"], conf["rabbit_pass"])
     params = pika.ConnectionParameters(
@@ -161,7 +162,7 @@ def open_channel():
     return conn, ch
 
 
-# ───────────── publish logic (uses extracted delay from NOW+X) ────────────────────
+# Publish
 def publish_category(
     path: Path, category_name: str, channel, base_offset: float
 ) -> float:
@@ -225,7 +226,7 @@ def process_all_categories(channel):
         base = max_raw + conf["extra_gap"]
 
 
-# ───────────── REPL & menus ─────────────────────────────────────────────────────
+# Reply and menu
 def menu_set():
     while True:
         print("\nSET MENU — choose what to change:")
@@ -315,7 +316,7 @@ def show_conf():
     print(json.dumps(snap, indent=2))
 
 
-# ───────────── main loop ───────────────────────────────────────────────────────
+# Main
 def main():
     print("Type 'help' for commands.")
     while True:

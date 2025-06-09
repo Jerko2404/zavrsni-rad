@@ -7,7 +7,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Timestamp na samom početku linije (eg. "Jan  2 11:06:04" ili ISO 8601)
+# Timestamp na samom početku linije
 FRONT_TIMESTAMP_RE = re.compile(
     r"^(?:[A-Z][a-z]{2}\s+\d{1,2}\s+\d{2}:\d{2}:\d{2}|\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}:\d{2}(?:\.\d+)?Z?)"
 )
@@ -20,7 +20,7 @@ APACHE_TS_IN_BRACKETS_RE = re.compile(
     r"\[\d{2}/[A-Za-z]{3}/\d{4}:\d{2}:\d{2}:\d{2}\s+[+-]\d{4}]"
 )
 
-# inline ISO 8601 timestamp (bez uglatih zagrada)
+# Timestamp
 INLINE_ISO_TS_RE = re.compile(
     r"(?<!\[)\b\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z?\b"
 )
@@ -178,7 +178,7 @@ def main():
     events = load_events(src)
     processed = process(events)
     write_output(processed, out_path)
-    print(f"[OK] Placeholder log spremljen u: {out_path}")
+    print(f"Placeholder log spremljen u: {out_path}")
 
 
 if __name__ == "__main__":

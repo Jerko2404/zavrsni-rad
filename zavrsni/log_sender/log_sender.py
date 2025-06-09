@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pika
 
-# ───── Configuration ─────────────────────────────────────────────────────────
+# Config
 RABBIT_HOST = os.getenv("RABBITMQ_HOST", "rabbitmq")
 RABBIT_PORT = int(os.getenv("RABBITMQ_PORT", 5672))
 RABBIT_USER = os.getenv("RABBITMQ_USER", "admin")
@@ -22,7 +22,7 @@ UF_PATH = Path(os.getenv("UF_PATH", "/splunkuf/splunkUF.txt"))
 UF_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 
-# ───── send helpers ────────────────────────────────────────────────────────────
+# Senders
 def send_udp(line):
     with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
         s.sendto(line.encode(), (DEST_HOST, UDP_PORT))
@@ -49,7 +49,7 @@ def deliver(line, proto, *_):
         send_uf(final)
 
 
-# ───── Main loop ───────────────────────────────────────────────────────────────
+# Main
 def main():
     # Set to 60 if 30 is not enough
     time.sleep(30)

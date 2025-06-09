@@ -1,4 +1,0 @@
-2025-01-15T10:25:10Z dns.example.com QUERY A a1b2c3d4.example.com from 45.67.89.101
-2025-01-15T10:25:11Z dns.example.com QUERY A e5f6g7h8.example.com from 45.67.89.101
-2025-01-15T10:25:12Z dns.example.com QUERY TXT 1234567890abcdef.example.com from 45.67.89.101
-2025-01-15T10:25:15Z dns.example.com QUERY A z9y8x7w6.example.com from 45.67.89.101

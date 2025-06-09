@@ -65,7 +65,7 @@ def main(argv: list[str] | None = None) -> None:
     for fp in files:
         process_file(fp, out_dir)
 
-    print(f"\n[✓] Finished: {len(files)} file(s) converted → {out_dir}\n")
+    print(f"\nFinished: {len(files)} file(s) converted → {out_dir}\n")
 
 
 if __name__ == "__main__":
