@@ -28,7 +28,7 @@ Ovaj projekt predstavlja nadogradnju diplomskog rada *"Sustav za edukaciju i tre
 1. **Pre-generiranje (pre-parse)**
 
    * Skripte u mapi `Logovi` sadrže neobrađene zapise s placeholderima (npr. `{{NOW+X}}`, `{{HOST_1}}`, `{{USER_1}}`).
-   * Ovaj korak priprema skupove JSON zapisa za daljnju obradnu.
+   * Ovaj korak priprema skupove JSON zapisa za daljnju obradu.
 
 2. **parser\_app**
 
