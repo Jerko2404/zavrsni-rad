@@ -13,8 +13,6 @@ __pycache__/
 **/__pycache__/
 **/*.pyc
 
-
-
 # Splunk config
 splunk_config/server.conf
 splunk_config/web.conf
@@ -22,3 +20,7 @@ splunk_config/README
 
 # Old files
 x_old/
+
+# Repeating files
+Placeholder/logs/from_splunk/prvi/out
+Placeholder/logs/from_splunk/drugi/out
