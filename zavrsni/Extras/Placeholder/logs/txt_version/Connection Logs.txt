@@ -1,0 +1,27 @@
+[2025-01-07 10:15:23] SSH Connection Accepted: User=user01, IP=192.168.1.45, Port=22, Protocol=SSH-2.0-OpenSSH_8.2p1, Device=server01
+[2025-01-07 10:18:49] SSH Connection Accepted: User=user02, IP=203.0.113.20, Port=22, Protocol=SSH-2.0-OpenSSH_7.4, Device=server02
+[2025-01-07 10:22:11] SSH Connection Failed: User=user01, IP=123.123.123.123, Port=22, Reason=Invalid Password, Device=server01
+[2025-01-07 10:25:30] SSH Connection Accepted: User=user03, IP=198.51.100.34, Port=22, Protocol=SSH-2.0-OpenSSH_8.4, Device=server03
+[2025-01-07 10:29:15] SSH Connection Accepted: User=user01, IP=10.0.0.10, Port=22, Protocol=SSH-2.0-OpenSSH_8.2p1, Device=server01
+[2025-01-07 10:35:47] SSH Connection Failed: User=user04, IP=203.0.113.55, Port=22, Reason=Connection Timeout, Device=server04
+[2025-01-07 10:40:02] SSH Connection Accepted: User=user02, IP=203.0.113.20, Port=22, Protocol=SSH-2.0-OpenSSH_7.4, Device=server02
+[2025-01-07 10:45:19] SSH Connection Accepted: User=user05, IP=172.16.0.15, Port=22, Protocol=SSH-2.0-OpenSSH_8.3p1, Device=server05
+[2025-01-07 10:49:43] SSH Connection Failed: User=user01, IP=198.51.100.36, Port=22, Reason=Invalid Username, Device=server06
+[2025-01-07 10:52:58] SSH Connection Accepted: User=user01, IP=192.0.2.25, Port=22, Protocol=SSH-2.0-OpenSSH_8.2p1, Device=server01
+[2025-01-07 11:02:10] SSH Connection Failed: User=admin, IP=203.0.113.99, Port=22, Reason=Invalid Password, Device=server02
+[2025-01-07 11:08:33] SSH Connection Accepted: User=user06, IP=192.168.1.100, Port=22, Protocol=SSH-2.0-OpenSSH_8.5p1, Device=server06
+[2025-01-07 11:15:21] SSH Connection Failed: User=root, IP=203.0.113.12, Port=22, Reason=Invalid Username, Device=server03
+[2025-01-07 11:20:45] SSH Connection Failed: User=user07, IP=10.10.10.10, Port=22, Reason=Too Many Authentication Failures, Device=server05
+[2025-01-07 11:24:58] SSH Connection Accepted: User=user08, IP=198.51.100.78, Port=22, Protocol=SSH-2.0-OpenSSH_8.6p1, Device=server04
+[2025-01-07 11:30:12] SSH Connection Accepted: User=user09, IP=172.16.5.10, Port=22, Protocol=SSH-2.0-OpenSSH_8.1p1, Device=server07
+[2025-01-07 11:38:47] SSH Connection Failed: User=guest, IP=192.0.2.50, Port=22, Reason=Invalid Username, Device=server08
+[2025-01-07 11:42:35] SSH Connection Accepted: User=user02, IP=203.0.113.20, Port=22, Protocol=SSH-2.0-OpenSSH_7.4, Device=server02
+[2025-01-07 11:50:19] SSH Connection Accepted: User=user10, IP=203.0.113.77, Port=22, Protocol=SSH-2.0-OpenSSH_8.7p1, Device=server09
+[2025-01-07 11:55:02] SSH Connection Failed: User=user05, IP=192.168.1.111, Port=22, Reason=Invalid Password, Device=server10
+[2025-01-07 12:02:58] SSH Connection Accepted: User=user01, IP=123.123.123.123, Port=22, Protocol=SSH-2.0-OpenSSH_8.2p1, Device=server01
+[2025-01-07 12:10:44] SSH Connection Accepted: User=user11, IP=172.16.10.20, Port=22, Protocol=SSH-2.0-OpenSSH_8.3p1, Device=server11
+[2025-01-07 12:15:39] SSH Connection Failed: User=user03, IP=198.51.100.101, Port=22, Reason=Invalid Password, Device=server12
+[2025-01-07 12:22:10] SSH Connection Accepted: User=user07, IP=192.168.1.88, Port=22, Protocol=SSH-2.0-OpenSSH_8.4p1, Device=server13
+[2025-01-07 12:30:05] SSH Connection Failed: User=root, IP=203.0.113.112, Port=22, Reason=Invalid Username, Device=server14
+[2025-01-07 12:35:51] SSH Connection Accepted: User=user12, IP=10.1.1.1, Port=22, Protocol=SSH-2.0-OpenSSH_8.9p1, Device=server15
+[2025-01-07 12:40:30] SSH Connection Accepted: User=user13, IP=203.0.113.200, Port=22, Protocol=SSH-2.0-OpenSSH_7.9p1, Device=server16

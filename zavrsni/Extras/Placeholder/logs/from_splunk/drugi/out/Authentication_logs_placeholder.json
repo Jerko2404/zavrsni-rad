@@ -1,0 +1,18 @@
+{"line": "{{NOW}} authserver sshd[{{PID}}] pam_unix(sshdsession) session opened for user employee by (uid=0)"}
+{"line": "{{NOW}} authserver sshd[{{PID}}] Accepted password for employee from {{HOST_1}} port {{PORT_1}} ssh2"}
+{"line": "{{NOW+6}} authserver sshd[{{PID}}] pam_unix(sshdsession) session opened for user employee by (uid=0)"}
+{"line": "{{NOW+6}} authserver sshd[{{PID}}] Accepted password for employee from {{HOST_2}} port {{PORT_2}} ssh2"}
+{"line": "{{NOW+11}} authserver sshd[{{PID}}] pam_unix(sshdsession) session opened for user employee by (uid=0)"}
+{"line": "{{NOW+11}} authserver sshd[{{PID}}] Accepted password for employee from {{HOST_3}} port {{PORT_3}} ssh2"}
+{"line": "{{NOW+16}} authserver sshd[{{PID}}] pam_unix(sshdsession) session opened for user {{USER_1}} by (uid=0)"}
+{"line": "{{NOW+16}} authserver sshd[{{PID}}] Accepted password for {{USER_1}} from {{HOST_4}} port {{PORT_4}} ssh2"}
+{"line": "{{NOW+21}} authserver sshd[{{PID}}] pam_unix(sshdsession) session opened for user employee by (uid=0)"}
+{"line": "{{NOW+21}} authserver sshd[{{PID}}] Accepted password for employee from {{HOST_5}} port {{PORT_5}} ssh2"}
+{"line": "{{NOW+26}} authserver sshd[{{PID}}] pam_unix(sshdsession) session opened for user employee by (uid=0)"}
+{"line": "{{NOW+26}} authserver sshd[{{PID}}] Accepted password for employee from {{HOST_6}} port {{PORT_6}} ssh2"}
+{"line": "{{NOW+31}} authserver sshd[{{PID}}] pam_unix(sshdsession) session opened for user employee by (uid=0)"}
+{"line": "{{NOW+31}} authserver sshd[{{PID}}] Accepted password for employee from {{HOST_7}} port {{PORT_7}} ssh2"}
+{"line": "{{NOW+36}} authserver sshd[{{PID}}] pam_unix(sshdsession) session opened for user employee by (uid=0)"}
+{"line": "{{NOW+36}} authserver sshd[{{PID}}] Accepted password for employee from {{HOST_8}} port {{PORT_3}} ssh2"}
+{"line": "{{NOW+41}} authserver sshd[{{PID}}] pam_unix(sshdsession) session opened for user {{USER_1}} by (uid=0)"}
+{"line": "{{NOW+41}} authserver sshd[{{PID}}] Accepted password for {{USER_1}} from {{HOST_9}} port {{PORT_8}} ssh2"}
