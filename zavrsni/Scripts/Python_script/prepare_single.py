@@ -162,11 +162,9 @@ def write_output(lines: list[dict[str, str]], out_path: str | Path):
 
 
 def main():
-    p = argparse.ArgumentParser(
-        description="Parametriziraj jedan Splunk JSON log u placeholder‑oblik (kronološki, bez stvarnih datuma)"
-    )
-    p.add_argument("src", help="Izvorni .json log")
-    p.add_argument("--out", help="Izlazni fajl (default: <src>_placeholder.json)")
+    p = argparse.ArgumentParser()
+    p.add_argument("src")
+    p.add_argument("--out")
     ns = p.parse_args()
 
     src = Path(ns.src)

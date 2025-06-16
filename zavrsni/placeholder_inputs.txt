@@ -232,21 +232,21 @@ PORT_7=
 
 # --- Hosts ---
 
-HOST_1=
-HOST_2=
+HOST_1=192.168.56.10
+HOST_2=10.0.5.23
 
 # --- Users ---
 
-USER_1=
+USER_1=root
 
 # --- Ports ---
 
-PORT_1=
+PORT_1=55022
 
 # --- Misc ---
 
-PID=
-KTIME=
+PID=4321
+KTIME=123456.789123
 
 [Web_server]
 

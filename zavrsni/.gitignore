@@ -22,5 +22,5 @@ splunk_config/README
 old/
 
 # Repeating files
-Placeholder/logs/from_splunk/prvi/out
-Placeholder/logs/from_splunk/drugi/out
+Scripts/Placeholder/logs/from_splunk/prvi/out
+Scripts/Placeholder/logs/from_splunk/drugi/out

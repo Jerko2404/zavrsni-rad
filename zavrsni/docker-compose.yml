@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   splunk-enterprise:
     image: splunk/splunk:latest
