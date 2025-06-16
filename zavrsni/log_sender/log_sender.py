@@ -51,7 +51,7 @@ def deliver(line, proto, *_):
 
 # Main
 def main():
-    # Set to 60 if 30 is not enough
+    # Set to 60 if problem happens again
     time.sleep(30)
 
     creds = pika.PlainCredentials(RABBIT_USER, RABBIT_PASS)
@@ -80,6 +80,12 @@ def main():
                 continue
 
             msg = json.loads(body)
+
+            if msg.get("control") == "STOP":
+                ch.basic_ack(delivery_tag=method.delivery_tag)
+                print("[log_sender] STOP received – shutting down")
+                break
+
             this_delay = float(msg.get("delay_seconds", 0))
             line = msg.get("line", "").strip()
             proto = msg.get("protocol", "udp")

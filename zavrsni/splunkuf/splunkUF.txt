@@ -1,0 +1,28 @@
+2025-06-16 09:39:22 172.24.42.14 "GET / HTTP/1.0" 200 10267 "https://www.google.com/" "Mozilla/5.0 (Windows NT 10.0; rv:50.0) Gecko/20100101 Firefox/50.0"
+2025-06-16 09:39:22 authserver sshd[56127] pam_unix(sshdsession) session opened for user employee by (uid=0)
+2025-06-16 09:39:22 authserver sshd[32912] Accepted password for employee from 172.24.42.14 port 8401 ssh2
+2025-06-16 09:39:23 172.24.42.14 "GET /bootstrap/img/favicon.ico HTTP/1.0" 200 589 "-" "Mozilla/5.0 (Windows NT 10.0; rv:50.0) Gecko/20100101 Firefox/50.0"
+2025-06-16 09:39:24 172.24.42.14 "GET /GitHub-Mark.png HTTP/1.0" 200 7428 "http://www.secrepo.com/" "Mozilla/5.0 (Windows NT 10.0; rv:50.0) Gecko/20100101 Firefox/50.0"
+2025-06-16 09:39:24 172.24.42.14 "GET /twitter-icon.png HTTP/1.0" 200 27787 "http://www.secrepo.com/" "Mozilla/5.0 (Windows NT 10.0; rv:50.0) Gecko/20100101 Firefox/50.0"
+2025-06-16 09:39:28 authserver sshd[27080] pam_unix(sshdsession) session opened for user employee by (uid=0)
+2025-06-16 09:39:28 authserver sshd[39583] Accepted password for employee from 192.168.188.191 port 30637 ssh2
+2025-06-16 09:39:33 authserver sshd[54484] pam_unix(sshdsession) session opened for user employee by (uid=0)
+2025-06-16 09:39:33 authserver sshd[61364] Accepted password for employee from 10.205.77.104 port 48321 ssh2
+2025-06-16 09:39:38 authserver sshd[27396] pam_unix(sshdsession) session opened for user user77 by (uid=0)
+2025-06-16 09:39:38 authserver sshd[53354] Accepted password for user77 from 10.89.81.210 port 58772 ssh2
+2025-06-16 09:39:43 authserver sshd[33057] pam_unix(sshdsession) session opened for user employee by (uid=0)
+2025-06-16 09:39:43 authserver sshd[5008] Accepted password for employee from 192.168.137.89 port 55155 ssh2
+2025-06-16 09:39:48 authserver sshd[28421] pam_unix(sshdsession) session opened for user employee by (uid=0)
+2025-06-16 09:39:48 authserver sshd[40854] Accepted password for employee from 192.168.187.172 port 18973 ssh2
+2025-06-16 09:39:53 authserver sshd[27363] pam_unix(sshdsession) session opened for user employee by (uid=0)
+2025-06-16 09:39:53 authserver sshd[61955] Accepted password for employee from 192.168.124.172 port 52211 ssh2
+2025-06-16 09:39:58 authserver sshd[11758] pam_unix(sshdsession) session opened for user employee by (uid=0)
+2025-06-16 09:39:58 authserver sshd[44463] Accepted password for employee from 192.168.206.16 port 13374 ssh2
+2025-06-16 09:40:03 authserver sshd[52305] pam_unix(sshdsession) session opened for user user77 by (uid=0)
+2025-06-16 09:40:03 authserver sshd[22226] Accepted password for user77 from 10.140.210.60 port 59546 ssh2
+2025-06-16 09:41:20 172.24.42.14 "GET /favicon.ico HTTP/1.0" 200 268 "-" "Mozilla/5.0 (Windows NT 10.0; rv:50.0) Gecko/20100101 Firefox/50.0"
+2025-06-16 09:46:01 192.168.188.191 "GET /wp-login.php HTTP/1.1" 404 295 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1"
+2025-06-16 09:50:11 10.205.77.104 "GET /GitHub-Mark.png HTTP/1.1" 200 7428 "http://www.secrepo.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36"
+2025-06-16 09:50:11 10.205.77.104 "GET /twitter-icon.png HTTP/1.1" 200 27787 "http://www.secrepo.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36"
+2025-06-16 09:50:11 10.205.77.104 "GET / HTTP/1.1" 200 10267 "http://www.mlsecproject.org/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36"
+2025-06-16 09:50:12 10.205.77.104 "GET /bootstrap/img/favicon.ico HTTP/1.1" 200 589 "http://www.secrepo.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36"

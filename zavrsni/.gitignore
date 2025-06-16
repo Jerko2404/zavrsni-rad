@@ -19,7 +19,7 @@ splunk_config/web.conf
 splunk_config/README
 
 # Old files
-x_old/
+old/
 
 # Repeating files
 Placeholder/logs/from_splunk/prvi/out

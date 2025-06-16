@@ -1,0 +1,255 @@
+[Connection]
+
+# --- Hosts (IP addresses) ---
+
+HOST_1=
+HOST_2=
+HOST_3=
+HOST_4=
+HOST_5=
+HOST_6=
+HOST_7=
+HOST_8=
+HOST_9=
+HOST_10=
+HOST_11=
+HOST_12=
+HOST_13=
+HOST_14=
+HOST_15=
+HOST_16=
+HOST_17=
+HOST_18=
+HOST_19=
+HOST_20=
+HOST_21=
+HOST_22=
+HOST_23=
+HOST_24=
+
+# --- Servers (device / hostname) ---
+
+SERVER_1=
+SERVER_2=
+SERVER_3=
+SERVER_4=
+SERVER_5=
+SERVER_6=
+SERVER_7=
+SERVER_8=
+SERVER_9=
+SERVER_10=
+SERVER_11=
+SERVER_12=
+SERVER_13=
+SERVER_14=
+SERVER_15=
+SERVER_16=
+
+# --- Users ---
+
+USER_1=
+USER_2=
+USER_3=
+USER_4=
+USER_5=
+USER_6=
+USER_7=
+USER_8=
+USER_9=
+USER_10=
+USER_11=
+USER_12=
+USER_13=
+USER_14=
+USER_15=
+USER_16=
+
+# --- Ports ---
+
+PORT_1=
+
+[Execute_and_create_mal]
+
+# --- Hosts ---
+
+HOST_1=
+HOST_2=
+HOST_3=
+HOST_4=
+HOST_5=
+
+# --- Server ---
+
+SERVER_1=
+
+# --- Users ---
+
+USER_1=
+USER_2=
+USER_3=
+USER_4=
+USER_5=
+USER_6=
+USER_7=
+USER_8=
+
+# --- Ports ---
+
+PORT_1=
+PORT_2=
+PORT_3=
+PORT_4=
+PORT_5=
+
+# --- Misc ---
+
+PID=
+KTIME=
+
+[Brute_force_login]
+
+# --- Hosts ---
+
+HOST_1=
+HOST_2=
+
+# --- Server ---
+
+SERVER_1=
+
+# --- Users ---
+
+USER_1=
+
+# --- Ports ---
+
+PORT_1=
+PID=
+
+[Win_def]
+
+# --- Hosts ---
+
+HOST_1=
+
+# --- Users ---
+
+USER_1=
+USER_2=
+
+[Authentication]
+
+# --- Hosts ---
+
+HOST_1=
+HOST_2=
+HOST_3=
+HOST_4=
+HOST_5=
+HOST_6=
+HOST_7=
+HOST_8=
+HOST_9=
+
+# --- Users ---
+
+USER_1=
+
+# --- Ports ---
+
+PORT_1=
+PORT_2=
+PORT_3=
+PORT_4=
+PORT_5=
+PORT_6=
+PORT_7=
+PORT_8=
+
+# --- Misc ---
+
+PID=
+
+[DNS_query]
+
+# --- Hosts ---
+
+HOST_1=198.51.100.123 
+
+[Email]
+
+# --- Hosts ---
+
+HOST_1=
+HOST_2=
+HOST_3=
+HOST_4=
+HOST_5=
+HOST_6=
+HOST_7=
+HOST_8=
+HOST_9=
+HOST_10=
+
+# --- Users ---
+
+USER_1=
+USER_2=
+
+# --- Misc ---
+
+PID=
+
+[Firewall]
+
+# --- Hosts ---
+
+HOST_1=
+HOST_2=
+HOST_3=
+HOST_4=
+HOST_5=
+HOST_6=
+HOST_7=
+HOST_8=
+HOST_9=
+HOST_10=
+HOST_11=
+HOST_12=
+
+# --- Ports ---
+
+PORT_1=
+PORT_2=
+PORT_3=
+PORT_4=
+PORT_5=
+PORT_6=
+PORT_7=
+
+[Privilege_escalation]
+
+# --- Hosts ---
+
+HOST_1=
+HOST_2=
+
+# --- Users ---
+
+USER_1=
+
+# --- Ports ---
+
+PORT_1=
+
+# --- Misc ---
+
+PID=
+KTIME=
+
+[Web_server]
+
+# --- Hosts ---
+
+HOST_1=

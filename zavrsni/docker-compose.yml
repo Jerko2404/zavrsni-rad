@@ -50,8 +50,10 @@ services:
       - RABBITMQ_QUEUE=log_queue
       - RABBITMQ_USER=admin
       - RABBITMQ_PASS=admin
+      - PARAM_FILE=/placeholder_inputs.txt
     volumes:
       - ./Logovi:/Logovi
+      - ./placeholder_inputs.txt:/placeholder_inputs.txt
     depends_on:
       - rabbitmq
     stdin_open: true
@@ -74,6 +76,26 @@ services:
       - ./splunkuf:/splunkuf               # shared UF‐file directory
     depends_on:
       - rabbitmq
+
+  noise-sender:
+    build: ./log_sender
+    container_name: noise-sender
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_QUEUE=noise_queue
+      - RABBITMQ_USER=admin
+      - RABBITMQ_PASS=admin
+      - DEST_HOST=splunk-enterprise
+      - UDP_PORT=1514
+      - TCP_PORT=15140
+      - UF_PATH=/splunkuf/splunkUF.txt
+    volumes:
+      - ./splunkuf:/splunkuf
+    depends_on:
+      - rabbitmq
+
+
 
 volumes:
   splunk_data:

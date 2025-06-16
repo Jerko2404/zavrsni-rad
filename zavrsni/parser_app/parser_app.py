@@ -1,17 +1,16 @@
-import datetime
+import configparser
 import ipaddress
 import json
 import os
 import random
 import re
-import sys
 import threading
 import time
 from pathlib import Path
 
 import pika
 
-# Const
+# Const + category
 LOGS_DICT = {
     "Brute_force_login": "Logovi/Prvi/Login_logs_placeholder.json",
     "Execute_and_create_mal": "Logovi/Prvi/Eventlog_exe_create_logs_placeholder.json",
@@ -20,29 +19,19 @@ LOGS_DICT = {
     "Connection": "Logovi/Prvi/Connection_logs_placeholder.json",
     "DNS_query": "Logovi/Drugi/DNS_query_logs_placeholder.json",
     "FireWall": "Logovi/Drugi/Firewall_logs_placeholder.json",
-    "Web_server": "Logovi/Drugi/Web_server_logs_placeholder.json",
+    "Web_server": "Logovi/Drgi/Web_server_logs_placeholder.json",
     "Email": "Logovi/Drugi/Email_logs_placeholder.json",
     "Win_def": "Logovi/Prvi/Security_alert_win_def_logs_placeholder.json",
     "Noise": "Logovi/Prvi/Noise_logs_placeholder.json",
 }
 
-# Log priority order - change if needed
-CATEGORY_ORDER = [
-    "Brute_force_login",
-    "Execute_and_create_mal",
-    "Privilege_escalation",
-    "Authentication",
-    "Connection",
-    "DNS_query",
-    "FireWall",
-    "Web_server",
-    "Email",
-    "Win_def",
-    "Noise",
-]
+CATEGORY_ORDER = list(LOGS_DICT.keys())  # Category priority order
+NOISE_QUEUE = "noise_queue"
 
 PLACE_RE = re.compile(r"\{\{([^}]+)\}\}")
 NOW_PLUS_RE = re.compile(r"NOW\+(\d+)")
+
+OVERRIDE_FILE = Path(os.getenv("PARAM_FILE", "placeholder_inputs.txt"))
 
 PRIVATE_NETS = [
     ipaddress.IPv4Network("10.0.0.0/8"),
@@ -52,33 +41,59 @@ PRIVATE_NETS = [
 DEFAULT_PORT_RANGE = (1024, 65000)
 DEFAULT_PID_RANGE = (1000, 65000)
 
-# Config
+# Conf
 conf_lock = threading.Lock()
 conf = {
-    # RabbitMQ – overload via docker-compose env
     "rabbit_host": os.getenv("RABBITMQ_HOST", "rabbitmq"),
     "rabbit_port": int(os.getenv("RABBITMQ_PORT", 5672)),
     "rabbit_user": os.getenv("RABBITMQ_USER", "admin"),
     "rabbit_pass": os.getenv("RABBITMQ_PASS", "admin"),
     "queue": os.getenv("RABBITMQ_QUEUE", "log_queue"),
-    # Transport protocol: udp | tcp | uf
-    "protocol": "udp",
-    # Pools for numbered placeholders
-    "hosts": [],
-    "servers": [],
-    "users": [],
-    # Runtime control
+    "protocol": "udp",  # udp|tcp|uf
     "running": False,
-    "speed_factor": 1.0,  # >1 = faster; <1 = slower
-    # Extra gap (seconds) between categories
-    "extra_gap": 1.0,
+    "speed_factor": 1.0,  # Log sending speed multiplier
+    "extra_gap": 1.0,  # Gap between 2 different log categories
+    "param_mode": "random",  # random|file
+    "param_overrides": {},
 }
-# By default all categories are OFF
-for cat in LOGS_DICT:
-    conf[cat] = False
+
+for c in CATEGORY_ORDER:
+    conf[c] = False
 
 
-# Placeholder generation functions
+# Load from placeholder_inputs.txt
+def load_overrides(path):
+    cp = configparser.ConfigParser(allow_no_value=True, interpolation=None)
+    cp.optionxform = str
+    overrides = {}
+
+    if not path.exists():
+        print("[WARN] Override file '%s' not found" % path)
+        return overrides
+
+    cp.read(path, encoding="utf-8")
+
+    default_bucket = {}
+    for key, value in cp.defaults().items():
+        if value.strip():
+            default_bucket[key] = value
+    if default_bucket:
+        overrides["DEFAULT"] = default_bucket
+
+    for sec in cp.sections():
+        bucket = {}
+        for key, value in cp.items(sec, raw=True):
+            if value.strip():
+                bucket[key] = value
+        if bucket:
+            overrides[sec] = bucket
+
+    total = sum(len(v) for v in overrides.values())
+    print("[INFO] Loaded %d overrides from %s" % (total, path))
+    return overrides
+
+
+# Helpers
 def gen_ip():
     net = random.choice(PRIVATE_NETS)
     addr = net.network_address + random.randint(1, net.num_addresses - 2)
@@ -93,237 +108,235 @@ def gen_user():
     return "user%02d" % random.randint(1, 99)
 
 
-def ensure_pool(pool_name, idx, generator):
-    lst = conf[pool_name]
+_pools = {
+    "hosts": [],
+    "servers": [],
+    "users": [],
+}
+
+
+def pool_get(name, idx, generator):
+    lst = _pools[name]
     while len(lst) <= idx:
         lst.append(generator())
     return lst[idx]
 
 
-boot_monotonic = time.monotonic()
+boot_time = time.monotonic()
 
 
-# Token replacement
-def replace_tokens(line):
-
-    def repl(match):
+# Placeholder fill
+def replace_tokens(line, cat):
+    def _repl(match):
         tok = match.group(1)
 
-        # HOST_n
+        if conf["param_mode"] == "file":
+            cat_bucket = conf["param_overrides"].get(cat, {})
+            if tok in cat_bucket:
+                return cat_bucket[tok]
+            default_bucket = conf["param_overrides"].get("DEFAULT", {})
+            if tok in default_bucket:
+                return default_bucket[tok]
+
         if tok.startswith("HOST_"):
-            i = int(tok.split("_")[1]) - 1
-            return ensure_pool("hosts", i, gen_ip)
-
-        # SERVER_n
+            return pool_get("hosts", int(tok.split("_")[1]) - 1, gen_ip)
         if tok.startswith("SERVER_"):
-            i = int(tok.split("_")[1]) - 1
-            return ensure_pool("servers", i, gen_server)
-
-        # USER_n
+            return pool_get("servers", int(tok.split("_")[1]) - 1, gen_server)
         if tok.startswith("USER_"):
-            i = int(tok.split("_")[1]) - 1
-            return ensure_pool("users", i, gen_user)
-
-        # PORT_n
+            return pool_get("users", int(tok.split("_")[1]) - 1, gen_user)
         if tok.startswith("PORT"):
             return str(random.randint(*DEFAULT_PORT_RANGE))
-
-        # PID
         if tok.startswith("PID"):
             return str(random.randint(*DEFAULT_PID_RANGE))
-
-        # KTIME
         if tok == "KTIME":
-            elapsed = time.monotonic() - boot_monotonic
-            return "%.6f" % elapsed
-
-        # NOW or NOW+X
-        if tok == "NOW":
+            return "%.6f" % (time.monotonic() - boot_time)
+        if tok.startswith("NOW"):
             return ""
-        if tok.startswith("NOW+"):
-            return ""
-
         return match.group(0)
 
-    return PLACE_RE.sub(repl, line)
+    return PLACE_RE.sub(_repl, line)
 
 
-# Rabbitmq setup
+# RabbitMQ helpers
 def open_channel():
     creds = pika.PlainCredentials(conf["rabbit_user"], conf["rabbit_pass"])
     params = pika.ConnectionParameters(
-        host=conf["rabbit_host"],
-        port=conf["rabbit_port"],
-        credentials=creds,
+        host=conf["rabbit_host"], port=conf["rabbit_port"], credentials=creds
     )
     conn = pika.BlockingConnection(params)
     ch = conn.channel()
     ch.queue_declare(queue=conf["queue"], durable=False)
+    ch.queue_declare(queue=NOISE_QUEUE, durable=False)
     return conn, ch
 
 
 # Publish
-def publish_category(
-    path: Path, category_name: str, channel, base_offset: float
-) -> float:
+def publish_category(path, cat, ch, base_offset):
     max_raw = 0.0
     speed = conf["speed_factor"]
-    gap = conf["extra_gap"]
 
-    with open(path, "r", encoding="utf-8") as fd:
-        for raw in fd:
+    with open(path, "r", encoding="utf-8") as fh:
+        for raw in fh:
             raw = raw.strip()
             if not raw:
                 continue
+
             try:
                 obj = json.loads(raw)
                 orig_line = obj["line"]
-            except (json.JSONDecodeError, KeyError):
-                print(f"[WARN] Skipping invalid JSON line in {path}: {raw}")
+            except Exception:
                 continue
+
             m = NOW_PLUS_RE.search(orig_line)
+            raw_delay = 0.0
             if m:
                 try:
                     raw_delay = float(m.group(1))
                 except ValueError:
                     raw_delay = 0.0
-            else:
-                raw_delay = 0.0
+
             if raw_delay > max_raw:
                 max_raw = raw_delay
 
-            filled = replace_tokens(orig_line)
-            adjusted = (raw_delay + base_offset) / speed
-
-            msg = {
-                "delay_seconds": adjusted,
-                "line": filled,
+            payload = {
+                "delay_seconds": (raw_delay + base_offset) / speed,
+                "line": replace_tokens(orig_line, cat),
                 "protocol": conf["protocol"],
-                "category": category_name,
+                "category": cat,
             }
-            channel.basic_publish(
-                exchange="",
-                routing_key=conf["queue"],
-                body=json.dumps(msg).encode(),
+            out_q = NOISE_QUEUE if cat == "Noise" else conf["queue"]
+            ch.basic_publish(
+                exchange="", routing_key=out_q, body=json.dumps(payload).encode()
             )
 
     return max_raw
 
 
-def process_all_categories(channel):
+def enqueue_all(ch):
     base = 0.0
     for cat in CATEGORY_ORDER:
-        with conf_lock:
-            if not conf.get(cat, False):
-                continue
-
-        path = Path(LOGS_DICT[cat])
-        if not path.exists():
-            print(f"[WARN] Missing file for category '{cat}': {path}")
+        if cat == "Noise":
             continue
+        if not conf[cat]:
+            continue
+        p = Path(LOGS_DICT[cat])
+        if p.exists():
+            base = publish_category(p, cat, ch, base) + conf["extra_gap"]
 
-        max_raw = publish_category(path, cat, channel, base)
-        base = max_raw + conf["extra_gap"]
+    if conf["Noise"]:
+        p_noise = Path(LOGS_DICT["Noise"])
+        if p_noise.exists():
+            publish_category(p_noise, "Noise", ch, 0.0)
 
 
-# Reply and menu
+# Menu
 def menu_set():
     while True:
-        print("\nSET MENU — choose what to change:")
+        print("\nSET MENU")
         print("  1) Toggle attack categories")
-        print("  2) Transport protocol (udp/tcp/uf)")
-        print("  3) Speed factor (>1 = faster, <1 = slower)")
-        print("  0) Return to main prompt")
-        choice = input("set> ").strip()
+        print("  2) Transport protocol (udp / tcp / uf)")
+        print("  3) Speed factor")
+        print("  4) Placeholder source (random / file)")
+        print("  s) Show current configuration")
+        print("  0) Back")
+        choice = input("set> ").strip().lower()
 
         if choice == "1":
-            _toggle_attacks()
+            _toggle_categories()
         elif choice == "2":
             _edit_protocol()
         elif choice == "3":
             _edit_speed()
+        elif choice == "4":
+            _toggle_source()
+        elif choice in ("s", "show"):
+            show_conf()
         elif choice == "0":
             return
         else:
             print("Invalid selection.")
 
 
-def _toggle_attacks():
+def _toggle_categories():
     while True:
-        with conf_lock:
-            print("\nAttack categories (toggle by number):")
-            for i, cat in enumerate(CATEGORY_ORDER, 1):
-                st = "ON " if conf.get(cat, False) else "OFF"
-                print(f"  {i:2d}) [{st}] {cat}")
-            print("  0) Done")
+        for idx, cat in enumerate(CATEGORY_ORDER, 1):
+            status = "ON " if conf[cat] else "OFF"
+            print("%2d) [%s] %s" % (idx, status, cat))
+        print(" 0) Done")
         sel = input("cat#> ").strip()
         if sel == "0":
             return
-        try:
+        if sel.isdigit():
             idx = int(sel) - 1
-            cat = CATEGORY_ORDER[idx]
-            with conf_lock:
+            if 0 <= idx < len(CATEGORY_ORDER):
+                cat = CATEGORY_ORDER[idx]
                 conf[cat] = not conf[cat]
-                print(f"{cat} → {'ON' if conf[cat] else 'OFF'}")
-        except (ValueError, IndexError):
-            print("Bad number.")
 
 
 def _edit_protocol():
-    with conf_lock:
-        current = conf["protocol"]
-    val = input(f"protocol (udp/tcp/uf) [{current}]: ").strip().lower()
-    if val in {"udp", "tcp", "uf"}:
-        with conf_lock:
-            conf["protocol"] = val
-    elif val:
-        print("Invalid protocol.")
+    val = input("protocol (udp/tcp/uf) [%s]: " % conf["protocol"]).strip().lower()
+    if val in ("udp", "tcp", "uf"):
+        conf["protocol"] = val
 
 
 def _edit_speed():
-    with conf_lock:
-        current = conf["speed_factor"]
-    val = input(f"speed_factor [current = {current}]: ").strip()
+    val = input("speed factor [%s]: " % conf["speed_factor"]).strip()
     if not val:
         return
     try:
-        f = float(val)
-        if f <= 0:
-            raise ValueError
-        with conf_lock:
-            conf["speed_factor"] = f
-            print(f"speed_factor set to {f}")
+        conf["speed_factor"] = max(0.01, float(val))
     except ValueError:
-        print("Enter a positive number.")
+        print("Enter a number")
+
+
+def _toggle_source():
+    if conf["param_mode"] == "random":
+        ans = input("Switch to FILE mode? [y/N]: ").lower()
+        if ans == "y":
+            overrides = load_overrides(OVERRIDE_FILE)
+            if overrides:
+                conf["param_overrides"] = overrides
+                conf["param_mode"] = "file"
+    else:
+        ans = input("Switch to RANDOM mode? [y/N]: ").lower()
+        if ans == "y":
+            conf["param_mode"] = "random"
+            conf["param_overrides"].clear()
+
+
+# Show/print
+def show_conf():
+    snap = {}
+    for k, v in conf.items():
+        if k != "param_overrides":
+            snap[k] = v
+    print(json.dumps(snap, indent=2))
 
 
 def print_help():
     print(
-        """
-help    – show this help text
-set     – open configuration menu (categories/protocol/speed)
-show    – display current configuration
-start   – stream the enabled attack logs
-stop    – stop streaming (clear queue processing)
-exit    – quit program
+        """\
+help  – show this help
+set   – configuration menu
+show  – show current config
+start – enqueue logs
+stop  – purge RabbitMQ queue & broadcast STOP
+exit  – quit
 """
     )
 
 
-def show_conf():
-    with conf_lock:
-        snap = {k: v for (k, v) in conf.items() if k != "running"}
-    print(json.dumps(snap, indent=2))
-
-
 # Main
 def main():
+    if OVERRIDE_FILE.exists():
+        conf["param_overrides"] = load_overrides(OVERRIDE_FILE)
+        if conf["param_overrides"]:
+            conf["param_mode"] = "file"
+
     print("Type 'help' for commands.")
     while True:
         try:
             cmd = input("cmd> ").strip().lower()
-            if not cmd:
-                continue
 
             if cmd == "help":
                 print_help()
@@ -335,48 +348,32 @@ def main():
                 show_conf()
 
             elif cmd == "start":
-                # Prevent double‐starts:
-                with conf_lock:
-                    if conf["running"]:
-                        print("[INFO] Already running.")
-                        continue
-                    conf["running"] = True
-
-                # Open RabbitMQ and enqueue everything:
-                try:
-                    conn, ch = open_channel()
-                except Exception as e:
-                    print(f"[ERROR] Could not open RabbitMQ channel: {e}")
-                    with conf_lock:
-                        conf["running"] = False
+                if conf["running"]:
+                    print("[INFO] Already running")
                     continue
-
-                process_all_categories(ch)
+                conn, ch = open_channel()
+                enqueue_all(ch)
                 conn.close()
-
-                with conf_lock:
-                    conf["running"] = False
-                print("[INFO] All categories queued.")
+                print("[INFO] Logs queued.")
 
             elif cmd == "stop":
-                with conf_lock:
-                    if not conf["running"]:
-                        print("[INFO] Not currently running.")
-                    else:
-                        conf["running"] = False
-                        print("[INFO] Stopped.")
+                conn, ch = open_channel()
+                for q in (conf["queue"], NOISE_QUEUE):
+                    ch.queue_purge(queue=q)
+                    ch.basic_publish(
+                        exchange="",
+                        routing_key=q,
+                        body=json.dumps({"control": "STOP"}).encode(),
+                    )
+                conn.close()
+                print("[INFO] Both queues purged and STOP broadcast.")
+                conf["running"] = False
 
             elif cmd == "exit":
-                with conf_lock:
-                    conf["running"] = False
-                print("[INFO] Bye.")
-                sys.exit(0)
-
-            else:
-                print("Unknown command – type 'help' for a list.")
+                return
 
         except KeyboardInterrupt:
-            print("\n[INFO] Interrupted – type 'exit' to quit cleanly.")
+            print("\nInterrupted – type 'exit' to quit.")
 
 
 if __name__ == "__main__":
