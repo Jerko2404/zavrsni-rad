@@ -19,13 +19,25 @@ LOGS_DICT = {
     "Connection": "Logovi/Prvi/Connection_logs_placeholder.json",
     "DNS_query": "Logovi/Drugi/DNS_query_logs_placeholder.json",
     "FireWall": "Logovi/Drugi/Firewall_logs_placeholder.json",
-    "Web_server": "Logovi/Drgi/Web_server_logs_placeholder.json",
+    "Web_server": "Logovi/Drugi/Web_server_logs_placeholder.json",
     "Email": "Logovi/Drugi/Email_logs_placeholder.json",
     "Win_def": "Logovi/Prvi/Security_alert_win_def_logs_placeholder.json",
     "Noise": "Logovi/Prvi/Noise_logs_placeholder.json",
 }
 
-CATEGORY_ORDER = list(LOGS_DICT.keys())  # Category priority order
+CATEGORY_ORDER = [
+    "Email",  # 1. Phishing
+    "Web_server",  # 2. Prijava na web
+    "Authentication",  # 3. Općenita prijava
+    "Brute_force_login",  # 4. Proboj grubom silom
+    "Privilege_escalation",  # 5. Povišenje ovlasti
+    "Execute_and_create_mal",  # 6. Izvršavanje koda
+    "DNS_query",  # 7. Pokušaj komunikacije (DNS)
+    "FireWall",  # 8. Blokiranje komunikacije (Firewall)
+    "Connection",  # 9. Općenite konekcije
+    "Win_def",  # 10. Detekcija na računalu
+    "Noise",  # 11. Pozadinski šum
+]
 NOISE_QUEUE = "noise_queue"
 
 PLACE_RE = re.compile(r"\{\{([^}]+)\}\}")
@@ -316,12 +328,12 @@ def show_conf():
 def print_help():
     print(
         """\
-help  – show this help
-set   – configuration menu
-show  – show current config
-start – enqueue logs
-stop  – purge RabbitMQ queue & broadcast STOP
-exit  – quit
+help  - show this help
+set   - configuration menu
+show  - show current config
+start - enqueue logs
+stop  - purge RabbitMQ queue & broadcast STOP
+exit  - quit
 """
     )
 
@@ -373,7 +385,7 @@ def main():
                 return
 
         except KeyboardInterrupt:
-            print("\nInterrupted – type 'exit' to quit.")
+            print("\nInterrupted - type 'exit' to quit.")
 
 
 if __name__ == "__main__":
